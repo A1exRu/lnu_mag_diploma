@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OpenCV windows
+*.dll
+
+# TensorFlow
+*.pb
+*.pbtxt
+checkpoint
+*.ckpt.*
+*.meta
+
+# Data and models
+data/
+weights/
+*.weights
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.model
+*.onnx
+
+# Datasets
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+KITTI/
+images/
+
+# Logs and results
+logs/
+results/
+*.log
+*.csv
+
+# OS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+datasets/kitti2015/
+kitti_dataset/

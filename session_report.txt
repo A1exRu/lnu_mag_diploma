@@ -1,0 +1,1075 @@
+TensorFlow version: 2.20.0
+🔍 Loading TensorFlow model: models/ssd_mobilenet_v2
+
+=== IDX 000000_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=13.2ms, detector=689.0ms
+[det] 11 boxes with score >= 0.5
+[metrics] AbsRel=0.042 | RMSE=2.963 | d1=0.965 | SILog=10.36
+[eval] box#0 id=3 score=0.78 -> pred=46.83 m | gt=40.79 m | covGT=17.7% | d_med=7.25 px | AbsRel=nan
+[eval] box#1 id=3 score=0.76 -> pred=5.17 m | gt=6.46 m | covGT=3.7% | d_med=65.62 px | AbsRel=nan
+[eval] box#2 id=3 score=0.75 -> pred=9.45 m | gt=8.99 m | covGT=69.0% | d_med=35.94 px | AbsRel=0.051
+[eval] box#3 id=3 score=0.74 -> pred=169.76 m | gt=nan m | covGT=0.0% | d_med=2.00 px | AbsRel=nan
+[eval] box#4 id=3 score=0.72 -> pred=31.22 m | gt=33.30 m | covGT=33.8% | d_med=10.88 px | AbsRel=0.062
+[eval] box#5 id=3 score=0.63 -> pred=62.44 m | gt=58.30 m | covGT=9.6% | d_med=5.44 px | AbsRel=nan
+[eval] box#6 id=3 score=0.62 -> pred=93.66 m | gt=nan m | covGT=0.0% | d_med=3.62 px | AbsRel=nan
+[eval] box#7 id=3 score=0.61 -> pred=73.41 m | gt=nan m | covGT=4.3% | d_med=4.62 px | AbsRel=nan
+[eval] box#8 id=3 score=0.57 -> pred=115.58 m | gt=nan m | covGT=0.0% | d_med=2.94 px | AbsRel=nan
+[eval] box#9 id=1 score=0.53 -> pred=62.44 m | gt=58.30 m | covGT=9.6% | d_med=5.44 px | AbsRel=nan
+[eval] box#10 id=3 score=0.53 -> pred=25.33 m | gt=34.93 m | covGT=33.9% | d_med=13.41 px | AbsRel=0.275
+[summary:000000_10] used=3 | AbsRel mean=0.130 | median=0.062
+
+=== IDX 000000_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.6ms, detector=15.4ms
+[det] 12 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.77 -> pred=46.83 m | gt=nan m | covGT=0.0% | d_med=7.25 px | AbsRel=nan
+[eval] box#1 id=3 score=0.74 -> pred=169.76 m | gt=nan m | covGT=0.0% | d_med=2.00 px | AbsRel=nan
+[eval] box#2 id=3 score=0.73 -> pred=29.52 m | gt=nan m | covGT=0.0% | d_med=11.50 px | AbsRel=nan
+[eval] box#3 id=3 score=0.73 -> pred=7.33 m | gt=nan m | covGT=0.0% | d_med=46.31 px | AbsRel=nan
+[eval] box#4 id=3 score=0.68 -> pred=4.84 m | gt=nan m | covGT=0.0% | d_med=70.12 px | AbsRel=nan
+[eval] box#5 id=1 score=0.65 -> pred=63.91 m | gt=nan m | covGT=0.0% | d_med=5.31 px | AbsRel=nan
+[eval] box#6 id=1 score=0.63 -> pred=25.50 m | gt=nan m | covGT=0.0% | d_med=13.31 px | AbsRel=nan
+[eval] box#7 id=3 score=0.62 -> pred=113.17 m | gt=nan m | covGT=0.0% | d_med=3.00 px | AbsRel=nan
+[eval] box#8 id=3 score=0.59 -> pred=70.55 m | gt=nan m | covGT=0.0% | d_med=4.81 px | AbsRel=nan
+[eval] box#9 id=3 score=0.55 -> pred=120.72 m | gt=nan m | covGT=0.0% | d_med=2.81 px | AbsRel=nan
+[eval] box#10 id=3 score=0.54 -> pred=63.91 m | gt=nan m | covGT=0.0% | d_med=5.31 px | AbsRel=nan
+[eval] box#11 id=1 score=0.53 -> pred=17.93 m | gt=nan m | covGT=0.0% | d_med=18.94 px | AbsRel=nan
+[summary:000000_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000001_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.5ms, detector=14.1ms
+[det] 6 boxes with score >= 0.5
+[metrics] AbsRel=0.068 | RMSE=6.807 | d1=0.963 | SILog=15.73
+[eval] box#0 id=3 score=0.75 -> pred=13.09 m | gt=11.86 m | covGT=72.0% | d_med=25.94 px | AbsRel=0.104
+[eval] box#1 id=1 score=0.55 -> pred=26.50 m | gt=37.32 m | covGT=35.8% | d_med=12.81 px | AbsRel=0.290
+[eval] box#2 id=3 score=0.54 -> pred=36.96 m | gt=14.13 m | covGT=42.9% | d_med=9.19 px | AbsRel=1.615
+[eval] box#3 id=3 score=0.52 -> pred=56.59 m | gt=49.90 m | covGT=36.2% | d_med=6.00 px | AbsRel=0.134
+[eval] box#4 id=1 score=0.52 -> pred=56.59 m | gt=49.90 m | covGT=36.2% | d_med=6.00 px | AbsRel=0.134
+[eval] box#5 id=1 score=0.52 -> pred=43.46 m | gt=39.94 m | covGT=22.8% | d_med=7.81 px | AbsRel=0.088
+[summary:000001_10] used=6 | AbsRel mean=0.394 | median=0.134
+
+=== IDX 000001_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.6ms, detector=15.3ms
+[det] 10 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.79 -> pred=11.81 m | gt=nan m | covGT=0.0% | d_med=28.75 px | AbsRel=nan
+[eval] box#1 id=3 score=0.68 -> pred=37.72 m | gt=nan m | covGT=0.0% | d_med=9.00 px | AbsRel=nan
+[eval] box#2 id=1 score=0.64 -> pred=24.25 m | gt=nan m | covGT=0.0% | d_med=14.00 px | AbsRel=nan
+[eval] box#3 id=3 score=0.61 -> pred=36.71 m | gt=nan m | covGT=0.0% | d_med=9.25 px | AbsRel=nan
+[eval] box#4 id=1 score=0.56 -> pred=54.32 m | gt=nan m | covGT=0.0% | d_med=6.25 px | AbsRel=nan
+[eval] box#5 id=3 score=0.54 -> pred=64.67 m | gt=nan m | covGT=0.0% | d_med=5.25 px | AbsRel=nan
+[eval] box#6 id=1 score=0.52 -> pred=40.24 m | gt=nan m | covGT=0.0% | d_med=8.44 px | AbsRel=nan
+[eval] box#7 id=1 score=0.52 -> pred=40.85 m | gt=nan m | covGT=0.0% | d_med=8.31 px | AbsRel=nan
+[eval] box#8 id=3 score=0.50 -> pred=40.24 m | gt=nan m | covGT=0.0% | d_med=8.44 px | AbsRel=nan
+[eval] box#9 id=1 score=0.50 -> pred=11.27 m | gt=nan m | covGT=0.0% | d_med=30.12 px | AbsRel=nan
+[summary:000001_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000002_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.3ms, detector=13.0ms
+[det] 15 boxes with score >= 0.5
+[metrics] AbsRel=0.070 | RMSE=4.456 | d1=0.957 | SILog=14.97
+[eval] box#0 id=2 score=0.75 -> pred=5.09 m | gt=nan m | covGT=0.0% | d_med=66.75 px | AbsRel=nan
+[eval] box#1 id=2 score=0.68 -> pred=12.46 m | gt=11.88 m | covGT=30.4% | d_med=27.25 px | AbsRel=0.049
+[eval] box#2 id=3 score=0.67 -> pred=35.98 m | gt=31.20 m | covGT=19.5% | d_med=9.44 px | AbsRel=nan
+[eval] box#3 id=10 score=0.66 -> pred=nan m | gt=9.12 m | covGT=10.3% | d_med=nan px | AbsRel=nan
+[eval] box#4 id=2 score=0.66 -> pred=13.62 m | gt=13.42 m | covGT=42.0% | d_med=24.94 px | AbsRel=0.015
+[eval] box#5 id=3 score=0.65 -> pred=nan m | gt=32.29 m | covGT=20.1% | d_med=nan px | AbsRel=nan
+[eval] box#6 id=2 score=0.58 -> pred=12.60 m | gt=12.31 m | covGT=33.6% | d_med=26.94 px | AbsRel=0.024
+[eval] box#7 id=3 score=0.58 -> pred=12.66 m | gt=11.81 m | covGT=73.1% | d_med=26.81 px | AbsRel=0.073
+[eval] box#8 id=2 score=0.56 -> pred=5.13 m | gt=nan m | covGT=0.3% | d_med=66.12 px | AbsRel=nan
+[eval] box#9 id=3 score=0.55 -> pred=37.72 m | gt=34.76 m | covGT=33.8% | d_med=9.00 px | AbsRel=0.085
+[eval] box#10 id=3 score=0.53 -> pred=nan m | gt=31.49 m | covGT=23.6% | d_med=nan px | AbsRel=nan
+[eval] box#11 id=8 score=0.53 -> pred=12.63 m | gt=11.79 m | covGT=75.8% | d_med=26.88 px | AbsRel=0.072
+[eval] box#12 id=3 score=0.53 -> pred=34.60 m | gt=33.65 m | covGT=32.2% | d_med=9.81 px | AbsRel=0.028
+[eval] box#13 id=3 score=0.51 -> pred=55.43 m | gt=31.86 m | covGT=8.3% | d_med=6.12 px | AbsRel=nan
+[eval] box#14 id=1 score=0.50 -> pred=5.22 m | gt=14.26 m | covGT=5.2% | d_med=65.06 px | AbsRel=nan
+[summary:000002_10] used=7 | AbsRel mean=0.049 | median=0.049
+
+=== IDX 000002_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.4ms, detector=14.0ms
+[det] 13 boxes with score >= 0.5
+[eval] box#0 id=10 score=0.69 -> pred=nan m | gt=nan m | covGT=0.0% | d_med=nan px | AbsRel=nan
+[eval] box#1 id=3 score=0.65 -> pred=12.87 m | gt=nan m | covGT=0.0% | d_med=26.38 px | AbsRel=nan
+[eval] box#2 id=1 score=0.61 -> pred=38.67 m | gt=nan m | covGT=0.0% | d_med=8.78 px | AbsRel=nan
+[eval] box#3 id=2 score=0.61 -> pred=13.45 m | gt=nan m | covGT=0.0% | d_med=25.25 px | AbsRel=nan
+[eval] box#4 id=2 score=0.60 -> pred=12.15 m | gt=nan m | covGT=0.0% | d_med=27.94 px | AbsRel=nan
+[eval] box#5 id=2 score=0.58 -> pred=12.07 m | gt=nan m | covGT=0.0% | d_med=28.12 px | AbsRel=nan
+[eval] box#6 id=8 score=0.58 -> pred=12.66 m | gt=nan m | covGT=0.0% | d_med=26.81 px | AbsRel=nan
+[eval] box#7 id=2 score=0.54 -> pred=5.14 m | gt=nan m | covGT=0.0% | d_med=66.00 px | AbsRel=nan
+[eval] box#8 id=10 score=0.54 -> pred=nan m | gt=nan m | covGT=0.0% | d_med=nan px | AbsRel=nan
+[eval] box#9 id=4 score=0.54 -> pred=13.45 m | gt=nan m | covGT=0.0% | d_med=25.25 px | AbsRel=nan
+[eval] box#10 id=1 score=0.52 -> pred=34.17 m | gt=nan m | covGT=0.0% | d_med=9.94 px | AbsRel=nan
+[eval] box#11 id=3 score=0.51 -> pred=38.39 m | gt=nan m | covGT=0.0% | d_med=8.84 px | AbsRel=nan
+[eval] box#12 id=1 score=0.51 -> pred=38.39 m | gt=nan m | covGT=0.0% | d_med=8.84 px | AbsRel=nan
+[summary:000002_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000003_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.5ms, detector=12.9ms
+[det] 8 boxes with score >= 0.5
+[metrics] AbsRel=0.117 | RMSE=5.600 | d1=0.915 | SILog=22.05
+[eval] box#0 id=1 score=0.59 -> pred=25.99 m | gt=25.31 m | covGT=37.3% | d_med=13.06 px | AbsRel=0.027
+[eval] box#1 id=1 score=0.58 -> pred=20.12 m | gt=19.88 m | covGT=34.5% | d_med=16.88 px | AbsRel=0.012
+[eval] box#2 id=8 score=0.56 -> pred=16.02 m | gt=14.44 m | covGT=71.8% | d_med=21.19 px | AbsRel=0.110
+[eval] box#3 id=3 score=0.56 -> pred=16.02 m | gt=14.44 m | covGT=71.1% | d_med=21.19 px | AbsRel=0.110
+[eval] box#4 id=1 score=0.53 -> pred=30.87 m | gt=24.83 m | covGT=24.7% | d_med=11.00 px | AbsRel=0.243
+[eval] box#5 id=1 score=0.53 -> pred=27.30 m | gt=26.39 m | covGT=30.3% | d_med=12.44 px | AbsRel=0.035
+[eval] box#6 id=3 score=0.52 -> pred=16.77 m | gt=15.04 m | covGT=17.3% | d_med=20.25 px | AbsRel=nan
+[eval] box#7 id=1 score=0.51 -> pred=22.17 m | gt=23.75 m | covGT=37.8% | d_med=15.31 px | AbsRel=0.066
+[summary:000003_10] used=7 | AbsRel mean=0.086 | median=0.066
+
+=== IDX 000003_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.5ms, detector=14.2ms
+[det] 7 boxes with score >= 0.5
+[eval] box#0 id=8 score=0.61 -> pred=16.17 m | gt=nan m | covGT=0.0% | d_med=21.00 px | AbsRel=nan
+[eval] box#1 id=3 score=0.60 -> pred=16.17 m | gt=nan m | covGT=0.0% | d_med=21.00 px | AbsRel=nan
+[eval] box#2 id=1 score=0.59 -> pred=25.27 m | gt=nan m | covGT=0.0% | d_med=13.44 px | AbsRel=nan
+[eval] box#3 id=1 score=0.53 -> pred=19.90 m | gt=nan m | covGT=0.0% | d_med=17.06 px | AbsRel=nan
+[eval] box#4 id=8 score=0.53 -> pred=16.72 m | gt=nan m | covGT=0.0% | d_med=20.31 px | AbsRel=nan
+[eval] box#5 id=1 score=0.51 -> pred=22.54 m | gt=nan m | covGT=0.0% | d_med=15.06 px | AbsRel=nan
+[eval] box#6 id=1 score=0.50 -> pred=33.12 m | gt=nan m | covGT=0.0% | d_med=10.25 px | AbsRel=nan
+[summary:000003_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000004_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.5ms, detector=14.1ms
+[det] 14 boxes with score >= 0.5
+[metrics] AbsRel=0.108 | RMSE=4.257 | d1=0.941 | SILog=20.20
+[eval] box#0 id=3 score=0.79 -> pred=10.41 m | gt=10.16 m | covGT=35.2% | d_med=32.62 px | AbsRel=0.025
+[eval] box#1 id=3 score=0.74 -> pred=4.51 m | gt=4.03 m | covGT=19.5% | d_med=75.25 px | AbsRel=nan
+[eval] box#2 id=3 score=0.69 -> pred=7.56 m | gt=6.77 m | covGT=24.7% | d_med=44.94 px | AbsRel=0.115
+[eval] box#3 id=3 score=0.67 -> pred=10.53 m | gt=10.21 m | covGT=37.5% | d_med=32.25 px | AbsRel=0.031
+[eval] box#4 id=3 score=0.66 -> pred=28.90 m | gt=29.95 m | covGT=33.9% | d_med=11.75 px | AbsRel=0.035
+[eval] box#5 id=3 score=0.64 -> pred=11.84 m | gt=11.11 m | covGT=42.0% | d_med=28.69 px | AbsRel=0.065
+[eval] box#6 id=3 score=0.63 -> pred=15.39 m | gt=14.30 m | covGT=43.1% | d_med=22.06 px | AbsRel=0.076
+[eval] box#7 id=3 score=0.60 -> pred=26.76 m | gt=15.00 m | covGT=8.8% | d_med=12.69 px | AbsRel=nan
+[eval] box#8 id=3 score=0.59 -> pred=16.66 m | gt=15.54 m | covGT=32.2% | d_med=20.38 px | AbsRel=0.072
+[eval] box#9 id=3 score=0.57 -> pred=16.17 m | gt=15.58 m | covGT=37.3% | d_med=21.00 px | AbsRel=0.038
+[eval] box#10 id=3 score=0.54 -> pred=104.47 m | gt=nan m | covGT=0.0% | d_med=3.25 px | AbsRel=nan
+[eval] box#11 id=3 score=0.52 -> pred=7.32 m | gt=10.13 m | covGT=30.3% | d_med=46.38 px | AbsRel=0.277
+[eval] box#12 id=3 score=0.52 -> pred=7.94 m | gt=7.76 m | covGT=31.1% | d_med=42.75 px | AbsRel=0.024
+[eval] box#13 id=3 score=0.50 -> pred=10.00 m | gt=8.71 m | covGT=31.5% | d_med=33.94 px | AbsRel=0.149
+[summary:000004_10] used=11 | AbsRel mean=0.082 | median=0.065
+
+=== IDX 000004_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.9ms, detector=14.7ms
+[det] 15 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.75 -> pred=9.99 m | gt=nan m | covGT=0.0% | d_med=34.00 px | AbsRel=nan
+[eval] box#1 id=3 score=0.75 -> pred=10.08 m | gt=nan m | covGT=0.0% | d_med=33.69 px | AbsRel=nan
+[eval] box#2 id=3 score=0.71 -> pred=7.21 m | gt=nan m | covGT=0.0% | d_med=47.06 px | AbsRel=nan
+[eval] box#3 id=3 score=0.69 -> pred=27.86 m | gt=nan m | covGT=0.0% | d_med=12.19 px | AbsRel=nan
+[eval] box#4 id=3 score=0.68 -> pred=4.28 m | gt=nan m | covGT=0.0% | d_med=79.31 px | AbsRel=nan
+[eval] box#5 id=3 score=0.67 -> pred=11.78 m | gt=nan m | covGT=0.0% | d_med=28.81 px | AbsRel=nan
+[eval] box#6 id=3 score=0.65 -> pred=15.79 m | gt=nan m | covGT=0.0% | d_med=21.50 px | AbsRel=nan
+[eval] box#7 id=3 score=0.64 -> pred=19.54 m | gt=nan m | covGT=0.0% | d_med=17.38 px | AbsRel=nan
+[eval] box#8 id=3 score=0.63 -> pred=12.05 m | gt=nan m | covGT=0.0% | d_med=28.19 px | AbsRel=nan
+[eval] box#9 id=3 score=0.62 -> pred=69.65 m | gt=nan m | covGT=0.0% | d_med=4.88 px | AbsRel=nan
+[eval] box#10 id=3 score=0.57 -> pred=16.61 m | gt=nan m | covGT=0.0% | d_med=20.44 px | AbsRel=nan
+[eval] box#11 id=3 score=0.55 -> pred=7.47 m | gt=nan m | covGT=0.0% | d_med=45.44 px | AbsRel=nan
+[eval] box#12 id=3 score=0.55 -> pred=5.96 m | gt=nan m | covGT=0.0% | d_med=57.00 px | AbsRel=nan
+[eval] box#13 id=3 score=0.54 -> pred=118.10 m | gt=nan m | covGT=0.0% | d_med=2.88 px | AbsRel=nan
+[eval] box#14 id=3 score=0.51 -> pred=6.96 m | gt=nan m | covGT=0.0% | d_med=48.75 px | AbsRel=nan
+[summary:000004_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000005_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.8ms, detector=14.0ms
+[det] 10 boxes with score >= 0.5
+[metrics] AbsRel=0.062 | RMSE=3.628 | d1=0.956 | SILog=13.95
+[eval] box#0 id=3 score=0.83 -> pred=5.57 m | gt=5.47 m | covGT=19.0% | d_med=61.00 px | AbsRel=nan
+[eval] box#1 id=3 score=0.77 -> pred=8.49 m | gt=8.27 m | covGT=30.0% | d_med=40.00 px | AbsRel=0.026
+[eval] box#2 id=3 score=0.73 -> pred=11.36 m | gt=10.91 m | covGT=39.4% | d_med=29.88 px | AbsRel=0.041
+[eval] box#3 id=3 score=0.72 -> pred=17.70 m | gt=16.88 m | covGT=36.9% | d_med=19.19 px | AbsRel=0.048
+[eval] box#4 id=3 score=0.68 -> pred=33.33 m | gt=29.09 m | covGT=34.1% | d_med=10.19 px | AbsRel=0.146
+[eval] box#5 id=3 score=0.66 -> pred=4.41 m | gt=4.04 m | covGT=18.8% | d_med=77.00 px | AbsRel=nan
+[eval] box#6 id=1 score=0.56 -> pred=8.58 m | gt=8.26 m | covGT=23.9% | d_med=39.59 px | AbsRel=0.038
+[eval] box#7 id=3 score=0.55 -> pred=34.60 m | gt=33.12 m | covGT=22.3% | d_med=9.81 px | AbsRel=0.045
+[eval] box#8 id=3 score=0.53 -> pred=6.82 m | gt=6.33 m | covGT=25.6% | d_med=49.75 px | AbsRel=0.078
+[eval] box#9 id=3 score=0.51 -> pred=14.76 m | gt=14.77 m | covGT=67.5% | d_med=23.00 px | AbsRel=0.001
+[summary:000005_10] used=8 | AbsRel mean=0.053 | median=0.043
+
+=== IDX 000005_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=12.3ms, detector=14.2ms
+[det] 12 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.80 -> pred=5.00 m | gt=nan m | covGT=0.0% | d_med=67.88 px | AbsRel=nan
+[eval] box#1 id=3 score=0.75 -> pred=7.91 m | gt=nan m | covGT=0.0% | d_med=42.94 px | AbsRel=nan
+[eval] box#2 id=3 score=0.69 -> pred=10.57 m | gt=nan m | covGT=0.0% | d_med=32.12 px | AbsRel=nan
+[eval] box#3 id=3 score=0.68 -> pred=33.12 m | gt=nan m | covGT=0.0% | d_med=10.25 px | AbsRel=nan
+[eval] box#4 id=3 score=0.64 -> pred=10.29 m | gt=nan m | covGT=0.0% | d_med=33.00 px | AbsRel=nan
+[eval] box#5 id=3 score=0.62 -> pred=17.03 m | gt=nan m | covGT=0.0% | d_med=19.94 px | AbsRel=nan
+[eval] box#6 id=3 score=0.60 -> pred=5.96 m | gt=nan m | covGT=0.0% | d_med=57.00 px | AbsRel=nan
+[eval] box#7 id=3 score=0.57 -> pred=34.17 m | gt=nan m | covGT=0.0% | d_med=9.94 px | AbsRel=nan
+[eval] box#8 id=3 score=0.51 -> pred=23.93 m | gt=nan m | covGT=0.0% | d_med=14.19 px | AbsRel=nan
+[eval] box#9 id=3 score=0.51 -> pred=14.76 m | gt=nan m | covGT=0.0% | d_med=23.00 px | AbsRel=nan
+[eval] box#10 id=3 score=0.50 -> pred=21.99 m | gt=nan m | covGT=0.0% | d_med=15.44 px | AbsRel=nan
+[eval] box#11 id=3 score=0.50 -> pred=4.77 m | gt=nan m | covGT=0.0% | d_med=71.19 px | AbsRel=nan
+[summary:000005_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000006_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=12.0ms, detector=13.8ms
+[det] 15 boxes with score >= 0.5
+[metrics] AbsRel=0.075 | RMSE=3.551 | d1=0.929 | SILog=13.70
+[eval] box#0 id=3 score=0.79 -> pred=5.28 m | gt=5.27 m | covGT=22.1% | d_med=64.31 px | AbsRel=0.002
+[eval] box#1 id=3 score=0.75 -> pred=5.41 m | gt=5.11 m | covGT=66.5% | d_med=62.81 px | AbsRel=0.059
+[eval] box#2 id=3 score=0.73 -> pred=3.95 m | gt=3.91 m | covGT=16.8% | d_med=86.06 px | AbsRel=nan
+[eval] box#3 id=3 score=0.72 -> pred=5.39 m | gt=5.30 m | covGT=28.1% | d_med=63.00 px | AbsRel=0.017
+[eval] box#4 id=3 score=0.72 -> pred=9.33 m | gt=9.23 m | covGT=38.0% | d_med=36.38 px | AbsRel=0.012
+[eval] box#5 id=3 score=0.66 -> pred=20.97 m | gt=17.61 m | covGT=35.9% | d_med=16.19 px | AbsRel=0.191
+[eval] box#6 id=3 score=0.65 -> pred=24.04 m | gt=21.22 m | covGT=39.7% | d_med=14.12 px | AbsRel=0.133
+[eval] box#7 id=3 score=0.63 -> pred=9.15 m | gt=9.07 m | covGT=37.8% | d_med=37.12 px | AbsRel=0.009
+[eval] box#8 id=3 score=0.63 -> pred=8.95 m | gt=6.50 m | covGT=60.7% | d_med=37.94 px | AbsRel=0.377
+[eval] box#9 id=3 score=0.57 -> pred=7.71 m | gt=5.65 m | covGT=48.8% | d_med=44.06 px | AbsRel=0.364
+[eval] box#10 id=3 score=0.55 -> pred=18.35 m | gt=15.35 m | covGT=38.5% | d_med=18.50 px | AbsRel=0.196
+[eval] box#11 id=3 score=0.54 -> pred=28.00 m | gt=25.14 m | covGT=41.0% | d_med=12.12 px | AbsRel=0.114
+[eval] box#12 id=3 score=0.53 -> pred=9.70 m | gt=6.04 m | covGT=37.4% | d_med=35.00 px | AbsRel=0.607
+[eval] box#13 id=3 score=0.53 -> pred=15.98 m | gt=15.26 m | covGT=42.6% | d_med=21.25 px | AbsRel=0.047
+[eval] box#14 id=3 score=0.52 -> pred=18.05 m | gt=17.89 m | covGT=74.1% | d_med=18.81 px | AbsRel=0.009
+[summary:000006_10] used=14 | AbsRel mean=0.153 | median=0.086
+
+=== IDX 000006_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=12.4ms, detector=13.9ms
+[det] 12 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.80 -> pred=4.65 m | gt=nan m | covGT=0.0% | d_med=73.00 px | AbsRel=nan
+[eval] box#1 id=3 score=0.72 -> pred=4.83 m | gt=nan m | covGT=0.0% | d_med=70.25 px | AbsRel=nan
+[eval] box#2 id=3 score=0.70 -> pred=17.03 m | gt=nan m | covGT=0.0% | d_med=19.94 px | AbsRel=nan
+[eval] box#3 id=3 score=0.68 -> pred=8.92 m | gt=nan m | covGT=0.0% | d_med=38.06 px | AbsRel=nan
+[eval] box#4 id=3 score=0.68 -> pred=8.55 m | gt=nan m | covGT=0.0% | d_med=39.69 px | AbsRel=nan
+[eval] box#5 id=3 score=0.66 -> pred=24.25 m | gt=nan m | covGT=0.0% | d_med=14.00 px | AbsRel=nan
+[eval] box#6 id=3 score=0.65 -> pred=5.34 m | gt=nan m | covGT=0.0% | d_med=63.62 px | AbsRel=nan
+[eval] box#7 id=3 score=0.59 -> pred=19.97 m | gt=nan m | covGT=0.0% | d_med=17.00 px | AbsRel=nan
+[eval] box#8 id=3 score=0.58 -> pred=21.30 m | gt=nan m | covGT=0.0% | d_med=15.94 px | AbsRel=nan
+[eval] box#9 id=3 score=0.52 -> pred=27.86 m | gt=nan m | covGT=0.0% | d_med=12.19 px | AbsRel=nan
+[eval] box#10 id=3 score=0.52 -> pred=18.86 m | gt=nan m | covGT=0.0% | d_med=18.00 px | AbsRel=nan
+[eval] box#11 id=1 score=0.52 -> pred=21.30 m | gt=nan m | covGT=0.0% | d_med=15.94 px | AbsRel=nan
+[summary:000006_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000007_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=12.1ms, detector=14.4ms
+[det] 5 boxes with score >= 0.5
+[metrics] AbsRel=0.062 | RMSE=5.301 | d1=0.965 | SILog=14.44
+[eval] box#0 id=3 score=0.75 -> pred=42.44 m | gt=39.29 m | covGT=82.6% | d_med=8.00 px | AbsRel=0.080
+[eval] box#1 id=3 score=0.65 -> pred=37.99 m | gt=36.96 m | covGT=57.1% | d_med=8.94 px | AbsRel=0.028
+[eval] box#2 id=3 score=0.61 -> pred=42.44 m | gt=38.84 m | covGT=81.7% | d_med=8.00 px | AbsRel=0.093
+[eval] box#3 id=3 score=0.58 -> pred=16.12 m | gt=15.46 m | covGT=72.5% | d_med=21.06 px | AbsRel=0.043
+[eval] box#4 id=3 score=0.55 -> pred=37.21 m | gt=35.48 m | covGT=49.8% | d_med=9.12 px | AbsRel=0.049
+[summary:000007_10] used=5 | AbsRel mean=0.058 | median=0.049
+
+=== IDX 000007_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.5ms, detector=13.3ms
+[det] 5 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.77 -> pred=42.44 m | gt=nan m | covGT=0.0% | d_med=8.00 px | AbsRel=nan
+[eval] box#1 id=3 score=0.60 -> pred=42.11 m | gt=nan m | covGT=0.0% | d_med=8.06 px | AbsRel=nan
+[eval] box#2 id=3 score=0.59 -> pred=37.46 m | gt=nan m | covGT=0.0% | d_med=9.06 px | AbsRel=nan
+[eval] box#3 id=3 score=0.52 -> pred=14.04 m | gt=nan m | covGT=0.0% | d_med=24.19 px | AbsRel=nan
+[eval] box#4 id=3 score=0.52 -> pred=18.86 m | gt=nan m | covGT=0.0% | d_med=18.00 px | AbsRel=nan
+[summary:000007_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000008_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.4ms, detector=15.1ms
+[det] 8 boxes with score >= 0.5
+[metrics] AbsRel=0.088 | RMSE=5.754 | d1=0.972 | SILog=19.53
+[eval] box#0 id=3 score=0.70 -> pred=34.17 m | gt=32.59 m | covGT=80.8% | d_med=9.94 px | AbsRel=0.048
+[eval] box#1 id=3 score=0.68 -> pred=8.44 m | gt=13.34 m | covGT=6.7% | d_med=40.25 px | AbsRel=nan
+[eval] box#2 id=3 score=0.67 -> pred=24.47 m | gt=23.09 m | covGT=61.0% | d_med=13.88 px | AbsRel=0.060
+[eval] box#3 id=3 score=0.63 -> pred=24.25 m | gt=23.09 m | covGT=70.6% | d_med=14.00 px | AbsRel=0.051
+[eval] box#4 id=1 score=0.60 -> pred=nan m | gt=13.22 m | covGT=16.7% | d_med=nan px | AbsRel=nan
+[eval] box#5 id=3 score=0.57 -> pred=53.26 m | gt=47.65 m | covGT=41.2% | d_med=6.38 px | AbsRel=0.118
+[eval] box#6 id=3 score=0.56 -> pred=24.25 m | gt=28.69 m | covGT=49.9% | d_med=14.00 px | AbsRel=0.155
+[eval] box#7 id=3 score=0.53 -> pred=27.72 m | gt=28.01 m | covGT=48.4% | d_med=12.25 px | AbsRel=0.011
+[summary:000008_10] used=6 | AbsRel mean=0.074 | median=0.055
+
+=== IDX 000008_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.4ms, detector=12.4ms
+[det] 8 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.69 -> pred=34.17 m | gt=nan m | covGT=0.0% | d_med=9.94 px | AbsRel=nan
+[eval] box#1 id=3 score=0.63 -> pred=23.93 m | gt=nan m | covGT=0.0% | d_med=14.19 px | AbsRel=nan
+[eval] box#2 id=1 score=0.56 -> pred=nan m | gt=nan m | covGT=0.0% | d_med=nan px | AbsRel=nan
+[eval] box#3 id=3 score=0.53 -> pred=24.81 m | gt=nan m | covGT=0.0% | d_med=13.69 px | AbsRel=nan
+[eval] box#4 id=3 score=0.52 -> pred=23.62 m | gt=nan m | covGT=0.0% | d_med=14.38 px | AbsRel=nan
+[eval] box#5 id=10 score=0.52 -> pred=16.17 m | gt=nan m | covGT=0.0% | d_med=21.00 px | AbsRel=nan
+[eval] box#6 id=3 score=0.51 -> pred=11.76 m | gt=nan m | covGT=0.0% | d_med=28.88 px | AbsRel=nan
+[eval] box#7 id=3 score=0.50 -> pred=12.55 m | gt=nan m | covGT=0.0% | d_med=27.06 px | AbsRel=nan
+[summary:000008_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000009_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.6ms, detector=14.5ms
+[det] 5 boxes with score >= 0.5
+[metrics] AbsRel=0.111 | RMSE=5.659 | d1=0.974 | SILog=22.00
+[eval] box#0 id=3 score=0.70 -> pred=28.29 m | gt=27.05 m | covGT=75.7% | d_med=12.00 px | AbsRel=0.046
+[eval] box#1 id=3 score=0.60 -> pred=18.86 m | gt=17.48 m | covGT=65.9% | d_med=18.00 px | AbsRel=0.079
+[eval] box#2 id=10 score=0.59 -> pred=11.39 m | gt=nan m | covGT=0.0% | d_med=29.81 px | AbsRel=nan
+[eval] box#3 id=3 score=0.53 -> pred=48.07 m | gt=42.57 m | covGT=48.7% | d_med=7.06 px | AbsRel=0.129
+[eval] box#4 id=10 score=0.52 -> pred=11.00 m | gt=nan m | covGT=0.0% | d_med=30.88 px | AbsRel=nan
+[summary:000009_10] used=3 | AbsRel mean=0.085 | median=0.079
+
+=== IDX 000009_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.5ms, detector=13.6ms
+[det] 5 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.65 -> pred=28.15 m | gt=nan m | covGT=0.0% | d_med=12.06 px | AbsRel=nan
+[eval] box#1 id=3 score=0.64 -> pred=17.87 m | gt=nan m | covGT=0.0% | d_med=19.00 px | AbsRel=nan
+[eval] box#2 id=3 score=0.59 -> pred=18.48 m | gt=nan m | covGT=0.0% | d_med=18.38 px | AbsRel=nan
+[eval] box#3 id=3 score=0.59 -> pred=48.07 m | gt=nan m | covGT=0.0% | d_med=7.06 px | AbsRel=nan
+[eval] box#4 id=10 score=0.59 -> pred=10.63 m | gt=nan m | covGT=0.0% | d_med=31.94 px | AbsRel=nan
+[summary:000009_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000010_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.9ms, detector=13.7ms
+[det] 8 boxes with score >= 0.5
+[metrics] AbsRel=0.065 | RMSE=4.192 | d1=0.965 | SILog=15.15
+[eval] box#0 id=3 score=0.74 -> pred=24.25 m | gt=23.22 m | covGT=77.9% | d_med=14.00 px | AbsRel=0.044
+[eval] box#1 id=3 score=0.64 -> pred=18.05 m | gt=17.20 m | covGT=78.7% | d_med=18.81 px | AbsRel=0.049
+[eval] box#2 id=1 score=0.60 -> pred=14.04 m | gt=20.56 m | covGT=29.7% | d_med=24.19 px | AbsRel=0.317
+[eval] box#3 id=3 score=0.58 -> pred=16.17 m | gt=15.64 m | covGT=79.1% | d_med=21.00 px | AbsRel=0.034
+[eval] box#4 id=10 score=0.55 -> pred=7.91 m | gt=nan m | covGT=0.0% | d_med=42.94 px | AbsRel=nan
+[eval] box#5 id=3 score=0.54 -> pred=8.07 m | gt=7.90 m | covGT=49.1% | d_med=42.06 px | AbsRel=0.022
+[eval] box#6 id=1 score=0.53 -> pred=14.04 m | gt=13.68 m | covGT=41.0% | d_med=24.19 px | AbsRel=0.026
+[eval] box#7 id=1 score=0.52 -> pred=39.08 m | gt=18.38 m | covGT=53.3% | d_med=8.69 px | AbsRel=1.127
+[summary:000010_10] used=7 | AbsRel mean=0.231 | median=0.044
+
+=== IDX 000010_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.4ms, detector=13.6ms
+[det] 5 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.70 -> pred=24.14 m | gt=nan m | covGT=0.0% | d_med=14.06 px | AbsRel=nan
+[eval] box#1 id=3 score=0.62 -> pred=17.19 m | gt=nan m | covGT=0.0% | d_med=19.75 px | AbsRel=nan
+[eval] box#2 id=10 score=0.54 -> pred=7.72 m | gt=nan m | covGT=0.0% | d_med=44.00 px | AbsRel=nan
+[eval] box#3 id=3 score=0.53 -> pred=16.17 m | gt=nan m | covGT=0.0% | d_med=21.00 px | AbsRel=nan
+[eval] box#4 id=1 score=0.51 -> pred=18.93 m | gt=nan m | covGT=0.0% | d_med=17.94 px | AbsRel=nan
+[summary:000010_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000011_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=12.0ms, detector=14.1ms
+[det] 7 boxes with score >= 0.5
+[metrics] AbsRel=0.076 | RMSE=5.589 | d1=0.970 | SILog=17.26
+[eval] box#0 id=3 score=0.75 -> pred=20.73 m | gt=20.12 m | covGT=67.9% | d_med=16.38 px | AbsRel=0.031
+[eval] box#1 id=3 score=0.74 -> pred=12.60 m | gt=12.23 m | covGT=69.7% | d_med=26.94 px | AbsRel=0.031
+[eval] box#2 id=10 score=0.68 -> pred=6.71 m | gt=nan m | covGT=0.0% | d_med=50.62 px | AbsRel=nan
+[eval] box#3 id=10 score=0.57 -> pred=6.71 m | gt=nan m | covGT=0.0% | d_med=50.62 px | AbsRel=nan
+[eval] box#4 id=3 score=0.55 -> pred=16.46 m | gt=nan m | covGT=0.2% | d_med=20.62 px | AbsRel=nan
+[eval] box#5 id=10 score=0.53 -> pred=7.08 m | gt=nan m | covGT=0.0% | d_med=47.94 px | AbsRel=nan
+[eval] box#6 id=10 score=0.51 -> pred=6.54 m | gt=nan m | covGT=0.0% | d_med=51.94 px | AbsRel=nan
+[summary:000011_10] used=2 | AbsRel mean=0.031 | median=0.031
+
+=== IDX 000011_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.5ms, detector=13.1ms
+[det] 7 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.77 -> pred=12.21 m | gt=nan m | covGT=0.0% | d_med=27.81 px | AbsRel=nan
+[eval] box#1 id=3 score=0.72 -> pred=20.35 m | gt=nan m | covGT=0.0% | d_med=16.69 px | AbsRel=nan
+[eval] box#2 id=10 score=0.71 -> pred=6.77 m | gt=nan m | covGT=0.0% | d_med=50.12 px | AbsRel=nan
+[eval] box#3 id=3 score=0.64 -> pred=17.14 m | gt=nan m | covGT=0.0% | d_med=19.81 px | AbsRel=nan
+[eval] box#4 id=10 score=0.55 -> pred=6.49 m | gt=nan m | covGT=0.0% | d_med=52.31 px | AbsRel=nan
+[eval] box#5 id=3 score=0.52 -> pred=6.55 m | gt=nan m | covGT=0.0% | d_med=51.88 px | AbsRel=nan
+[eval] box#6 id=10 score=0.52 -> pred=33.95 m | gt=nan m | covGT=0.0% | d_med=10.00 px | AbsRel=nan
+[summary:000011_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000012_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.6ms, detector=13.5ms
+[det] 3 boxes with score >= 0.5
+[metrics] AbsRel=0.071 | RMSE=4.647 | d1=0.964 | SILog=16.05
+[eval] box#0 id=3 score=0.78 -> pred=9.79 m | gt=9.85 m | covGT=60.8% | d_med=34.69 px | AbsRel=0.007
+[eval] box#1 id=10 score=0.66 -> pred=6.68 m | gt=nan m | covGT=0.0% | d_med=50.81 px | AbsRel=nan
+[eval] box#2 id=10 score=0.54 -> pred=5.98 m | gt=nan m | covGT=0.0% | d_med=56.81 px | AbsRel=nan
+[summary:000012_10] used=1 | AbsRel mean=0.007 | median=0.007
+
+=== IDX 000012_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.4ms, detector=13.4ms
+[det] 3 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.77 -> pred=9.50 m | gt=nan m | covGT=0.0% | d_med=35.75 px | AbsRel=nan
+[eval] box#1 id=10 score=0.67 -> pred=6.67 m | gt=nan m | covGT=0.0% | d_med=50.88 px | AbsRel=nan
+[eval] box#2 id=10 score=0.54 -> pred=6.00 m | gt=nan m | covGT=0.0% | d_med=56.62 px | AbsRel=nan
+[summary:000012_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000013_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.6ms, detector=14.4ms
+[det] 10 boxes with score >= 0.5
+[metrics] AbsRel=0.065 | RMSE=6.639 | d1=0.962 | SILog=14.53
+[eval] box#0 id=3 score=0.74 -> pred=30.35 m | gt=28.14 m | covGT=88.7% | d_med=11.19 px | AbsRel=0.079
+[eval] box#1 id=3 score=0.67 -> pred=33.95 m | gt=27.58 m | covGT=35.5% | d_med=10.00 px | AbsRel=0.231
+[eval] box#2 id=3 score=0.64 -> pred=16.12 m | gt=14.71 m | covGT=66.2% | d_med=21.06 px | AbsRel=0.096
+[eval] box#3 id=10 score=0.60 -> pred=102.50 m | gt=nan m | covGT=1.6% | d_med=3.31 px | AbsRel=nan
+[eval] box#4 id=3 score=0.60 -> pred=4.04 m | gt=11.58 m | covGT=6.8% | d_med=84.00 px | AbsRel=nan
+[eval] box#5 id=1 score=0.56 -> pred=56.59 m | gt=18.73 m | covGT=24.2% | d_med=6.00 px | AbsRel=2.021
+[eval] box#6 id=1 score=0.53 -> pred=11.81 m | gt=11.47 m | covGT=24.9% | d_med=28.75 px | AbsRel=0.029
+[eval] box#7 id=1 score=0.53 -> pred=21.35 m | gt=12.65 m | covGT=17.6% | d_med=15.91 px | AbsRel=nan
+[eval] box#8 id=10 score=0.52 -> pred=82.31 m | gt=nan m | covGT=0.0% | d_med=4.12 px | AbsRel=nan
+[eval] box#9 id=2 score=0.50 -> pred=12.15 m | gt=12.24 m | covGT=24.4% | d_med=27.94 px | AbsRel=0.007
+[summary:000013_10] used=6 | AbsRel mean=0.410 | median=0.087
+
+=== IDX 000013_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.3ms, detector=13.2ms
+[det] 8 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.70 -> pred=28.90 m | gt=nan m | covGT=0.0% | d_med=11.75 px | AbsRel=nan
+[eval] box#1 id=3 score=0.67 -> pred=28.59 m | gt=nan m | covGT=0.0% | d_med=11.88 px | AbsRel=nan
+[eval] box#2 id=3 score=0.60 -> pred=14.76 m | gt=nan m | covGT=0.0% | d_med=23.00 px | AbsRel=nan
+[eval] box#3 id=3 score=0.57 -> pred=30.87 m | gt=nan m | covGT=0.0% | d_med=11.00 px | AbsRel=nan
+[eval] box#4 id=10 score=0.57 -> pred=98.77 m | gt=nan m | covGT=0.0% | d_med=3.44 px | AbsRel=nan
+[eval] box#5 id=3 score=0.56 -> pred=33.95 m | gt=nan m | covGT=0.0% | d_med=10.00 px | AbsRel=nan
+[eval] box#6 id=1 score=0.55 -> pred=18.86 m | gt=nan m | covGT=0.0% | d_med=18.00 px | AbsRel=nan
+[eval] box#7 id=10 score=0.53 -> pred=81.08 m | gt=nan m | covGT=0.0% | d_med=4.19 px | AbsRel=nan
+[summary:000013_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000014_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.3ms, detector=14.0ms
+[det] 15 boxes with score >= 0.5
+[metrics] AbsRel=0.054 | RMSE=7.379 | d1=0.981 | SILog=12.85
+[eval] box#0 id=3 score=0.74 -> pred=57.79 m | gt=50.48 m | covGT=5.6% | d_med=5.88 px | AbsRel=nan
+[eval] box#1 id=3 score=0.74 -> pred=31.22 m | gt=29.27 m | covGT=62.8% | d_med=10.88 px | AbsRel=0.067
+[eval] box#2 id=3 score=0.71 -> pred=49.84 m | gt=44.37 m | covGT=18.6% | d_med=6.81 px | AbsRel=nan
+[eval] box#3 id=3 score=0.65 -> pred=28.15 m | gt=26.22 m | covGT=70.6% | d_med=12.06 px | AbsRel=0.074
+[eval] box#4 id=10 score=0.62 -> pred=14.64 m | gt=nan m | covGT=3.6% | d_med=23.19 px | AbsRel=nan
+[eval] box#5 id=3 score=0.62 -> pred=19.97 m | gt=18.15 m | covGT=19.8% | d_med=17.00 px | AbsRel=nan
+[eval] box#6 id=2 score=0.59 -> pred=9.38 m | gt=8.83 m | covGT=10.8% | d_med=36.19 px | AbsRel=nan
+[eval] box#7 id=8 score=0.58 -> pred=31.22 m | gt=29.27 m | covGT=62.8% | d_med=10.88 px | AbsRel=0.067
+[eval] box#8 id=1 score=0.57 -> pred=75.45 m | gt=30.44 m | covGT=46.9% | d_med=4.50 px | AbsRel=1.478
+[eval] box#9 id=3 score=0.55 -> pred=42.44 m | gt=25.51 m | covGT=46.1% | d_med=8.00 px | AbsRel=0.664
+[eval] box#10 id=10 score=0.54 -> pred=73.41 m | gt=nan m | covGT=0.0% | d_med=4.62 px | AbsRel=nan
+[eval] box#11 id=1 score=0.53 -> pred=14.28 m | gt=16.32 m | covGT=18.7% | d_med=23.78 px | AbsRel=nan
+[eval] box#12 id=3 score=0.52 -> pred=15.39 m | gt=14.97 m | covGT=77.2% | d_med=22.06 px | AbsRel=0.028
+[eval] box#13 id=1 score=0.51 -> pred=15.52 m | gt=15.87 m | covGT=53.0% | d_med=21.88 px | AbsRel=0.022
+[eval] box#14 id=10 score=0.50 -> pred=48.50 m | gt=nan m | covGT=0.0% | d_med=7.00 px | AbsRel=nan
+[summary:000014_10] used=7 | AbsRel mean=0.343 | median=0.067
+
+=== IDX 000014_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.8ms, detector=13.9ms
+[det] 14 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.74 -> pred=14.76 m | gt=nan m | covGT=0.0% | d_med=23.00 px | AbsRel=nan
+[eval] box#1 id=3 score=0.73 -> pred=57.49 m | gt=nan m | covGT=0.0% | d_med=5.91 px | AbsRel=nan
+[eval] box#2 id=3 score=0.66 -> pred=27.44 m | gt=nan m | covGT=0.0% | d_med=12.38 px | AbsRel=nan
+[eval] box#3 id=3 score=0.66 -> pred=26.89 m | gt=nan m | covGT=0.0% | d_med=12.62 px | AbsRel=nan
+[eval] box#4 id=3 score=0.61 -> pred=30.87 m | gt=nan m | covGT=0.0% | d_med=11.00 px | AbsRel=nan
+[eval] box#5 id=3 score=0.59 -> pred=19.97 m | gt=nan m | covGT=0.0% | d_med=17.00 px | AbsRel=nan
+[eval] box#6 id=3 score=0.58 -> pred=52.74 m | gt=nan m | covGT=0.0% | d_med=6.44 px | AbsRel=nan
+[eval] box#7 id=10 score=0.58 -> pred=76.51 m | gt=nan m | covGT=0.0% | d_med=4.44 px | AbsRel=nan
+[eval] box#8 id=10 score=0.57 -> pred=78.73 m | gt=nan m | covGT=0.0% | d_med=4.31 px | AbsRel=nan
+[eval] box#9 id=1 score=0.57 -> pred=32.73 m | gt=nan m | covGT=0.0% | d_med=10.38 px | AbsRel=nan
+[eval] box#10 id=10 score=0.53 -> pred=7.44 m | gt=nan m | covGT=0.0% | d_med=45.62 px | AbsRel=nan
+[eval] box#11 id=10 score=0.52 -> pred=7.46 m | gt=nan m | covGT=0.0% | d_med=45.50 px | AbsRel=nan
+[eval] box#12 id=8 score=0.51 -> pred=30.87 m | gt=nan m | covGT=0.0% | d_med=11.00 px | AbsRel=nan
+[eval] box#13 id=3 score=0.51 -> pred=32.73 m | gt=nan m | covGT=0.0% | d_med=10.38 px | AbsRel=nan
+[summary:000014_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000015_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.3ms, detector=14.5ms
+[det] 13 boxes with score >= 0.5
+[metrics] AbsRel=0.040 | RMSE=4.821 | d1=0.984 | SILog=10.05
+[eval] box#0 id=3 score=0.66 -> pred=56.89 m | gt=48.91 m | covGT=7.6% | d_med=5.97 px | AbsRel=nan
+[eval] box#1 id=3 score=0.62 -> pred=14.33 m | gt=14.15 m | covGT=64.9% | d_med=23.69 px | AbsRel=0.013
+[eval] box#2 id=6 score=0.62 -> pred=28.90 m | gt=18.12 m | covGT=3.5% | d_med=11.75 px | AbsRel=nan
+[eval] box#3 id=3 score=0.61 -> pred=48.50 m | gt=14.31 m | covGT=39.6% | d_med=7.00 px | AbsRel=2.390
+[eval] box#4 id=3 score=0.60 -> pred=25.99 m | gt=24.37 m | covGT=67.2% | d_med=13.06 px | AbsRel=0.067
+[eval] box#5 id=10 score=0.53 -> pred=47.86 m | gt=nan m | covGT=0.0% | d_med=7.09 px | AbsRel=nan
+[eval] box#6 id=10 score=0.53 -> pred=18.86 m | gt=nan m | covGT=0.0% | d_med=18.00 px | AbsRel=nan
+[eval] box#7 id=10 score=0.52 -> pred=18.86 m | gt=nan m | covGT=0.3% | d_med=18.00 px | AbsRel=nan
+[eval] box#8 id=1 score=0.51 -> pred=56.59 m | gt=51.22 m | covGT=11.7% | d_med=6.00 px | AbsRel=nan
+[eval] box#9 id=10 score=0.51 -> pred=86.23 m | gt=nan m | covGT=0.0% | d_med=3.94 px | AbsRel=nan
+[eval] box#10 id=1 score=0.51 -> pred=36.71 m | gt=51.80 m | covGT=10.6% | d_med=9.25 px | AbsRel=nan
+[eval] box#11 id=1 score=0.51 -> pred=14.97 m | gt=14.37 m | covGT=28.4% | d_med=22.69 px | AbsRel=0.041
+[eval] box#12 id=10 score=0.51 -> pred=79.89 m | gt=nan m | covGT=0.0% | d_med=4.25 px | AbsRel=nan
+[summary:000015_10] used=4 | AbsRel mean=0.628 | median=0.054
+
+=== IDX 000015_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.2ms, detector=14.3ms
+[det] 8 boxes with score >= 0.5
+[eval] box#0 id=6 score=0.70 -> pred=28.74 m | gt=nan m | covGT=0.0% | d_med=11.81 px | AbsRel=nan
+[eval] box#1 id=3 score=0.68 -> pred=25.38 m | gt=nan m | covGT=0.0% | d_med=13.38 px | AbsRel=nan
+[eval] box#2 id=3 score=0.64 -> pred=56.59 m | gt=nan m | covGT=0.0% | d_med=6.00 px | AbsRel=nan
+[eval] box#3 id=3 score=0.61 -> pred=13.72 m | gt=nan m | covGT=0.0% | d_med=24.75 px | AbsRel=nan
+[eval] box#4 id=10 score=0.53 -> pred=12.55 m | gt=nan m | covGT=0.0% | d_med=27.06 px | AbsRel=nan
+[eval] box#5 id=10 score=0.51 -> pred=48.29 m | gt=nan m | covGT=0.0% | d_med=7.03 px | AbsRel=nan
+[eval] box#6 id=10 score=0.51 -> pred=84.88 m | gt=nan m | covGT=0.0% | d_med=4.00 px | AbsRel=nan
+[eval] box#7 id=1 score=0.51 -> pred=37.72 m | gt=nan m | covGT=0.0% | d_med=9.00 px | AbsRel=nan
+[summary:000015_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000016_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.2ms, detector=14.0ms
+[det] 18 boxes with score >= 0.5
+[metrics] AbsRel=0.041 | RMSE=3.976 | d1=0.981 | SILog=10.31
+[eval] box#0 id=6 score=0.77 -> pred=28.74 m | gt=27.22 m | covGT=2.9% | d_med=11.81 px | AbsRel=nan
+[eval] box#1 id=3 score=0.70 -> pred=56.59 m | gt=48.44 m | covGT=6.9% | d_med=6.00 px | AbsRel=nan
+[eval] box#2 id=10 score=0.64 -> pred=12.13 m | gt=nan m | covGT=0.0% | d_med=28.00 px | AbsRel=nan
+[eval] box#3 id=3 score=0.62 -> pred=49.39 m | gt=43.20 m | covGT=22.3% | d_med=6.88 px | AbsRel=0.143
+[eval] box#4 id=10 score=0.61 -> pred=18.41 m | gt=nan m | covGT=1.4% | d_med=18.44 px | AbsRel=nan
+[eval] box#5 id=3 score=0.59 -> pred=26.12 m | gt=26.19 m | covGT=18.4% | d_med=13.00 px | AbsRel=nan
+[eval] box#6 id=3 score=0.58 -> pred=48.50 m | gt=42.12 m | covGT=18.0% | d_med=7.00 px | AbsRel=nan
+[eval] box#7 id=3 score=0.58 -> pred=17.64 m | gt=17.42 m | covGT=42.7% | d_med=19.25 px | AbsRel=0.013
+[eval] box#8 id=3 score=0.57 -> pred=18.99 m | gt=18.38 m | covGT=84.5% | d_med=17.88 px | AbsRel=0.034
+[eval] box#9 id=10 score=0.56 -> pred=84.88 m | gt=nan m | covGT=0.0% | d_med=4.00 px | AbsRel=nan
+[eval] box#10 id=10 score=0.53 -> pred=12.15 m | gt=nan m | covGT=3.6% | d_med=27.94 px | AbsRel=nan
+[eval] box#11 id=1 score=0.53 -> pred=30.69 m | gt=nan m | covGT=0.0% | d_med=11.06 px | AbsRel=nan
+[eval] box#12 id=1 score=0.53 -> pred=17.87 m | gt=16.08 m | covGT=19.0% | d_med=19.00 px | AbsRel=nan
+[eval] box#13 id=10 score=0.53 -> pred=76.51 m | gt=nan m | covGT=0.0% | d_med=4.44 px | AbsRel=nan
+[eval] box#14 id=10 score=0.53 -> pred=169.76 m | gt=nan m | covGT=0.0% | d_med=2.00 px | AbsRel=nan
+[eval] box#15 id=1 score=0.52 -> pred=110.87 m | gt=nan m | covGT=5.1% | d_med=3.06 px | AbsRel=nan
+[eval] box#16 id=1 score=0.51 -> pred=17.87 m | gt=16.07 m | covGT=18.2% | d_med=19.00 px | AbsRel=nan
+[eval] box#17 id=10 score=0.50 -> pred=56.00 m | gt=nan m | covGT=0.0% | d_med=6.06 px | AbsRel=nan
+[summary:000016_10] used=3 | AbsRel mean=0.063 | median=0.034
+
+=== IDX 000016_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.2ms, detector=14.2ms
+[det] 15 boxes with score >= 0.5
+[eval] box#0 id=6 score=0.79 -> pred=28.59 m | gt=nan m | covGT=0.0% | d_med=11.88 px | AbsRel=nan
+[eval] box#1 id=3 score=0.70 -> pred=56.59 m | gt=nan m | covGT=0.0% | d_med=6.00 px | AbsRel=nan
+[eval] box#2 id=3 score=0.66 -> pred=46.83 m | gt=nan m | covGT=0.0% | d_med=7.25 px | AbsRel=nan
+[eval] box#3 id=3 score=0.66 -> pred=35.98 m | gt=nan m | covGT=0.0% | d_med=9.44 px | AbsRel=nan
+[eval] box#4 id=3 score=0.64 -> pred=48.94 m | gt=nan m | covGT=0.0% | d_med=6.94 px | AbsRel=nan
+[eval] box#5 id=10 score=0.63 -> pred=12.07 m | gt=nan m | covGT=0.0% | d_med=28.12 px | AbsRel=nan
+[eval] box#6 id=10 score=0.55 -> pred=87.62 m | gt=nan m | covGT=0.0% | d_med=3.88 px | AbsRel=nan
+[eval] box#7 id=10 score=0.55 -> pred=79.89 m | gt=nan m | covGT=0.0% | d_med=4.25 px | AbsRel=nan
+[eval] box#8 id=10 score=0.55 -> pred=12.07 m | gt=nan m | covGT=0.0% | d_med=28.12 px | AbsRel=nan
+[eval] box#9 id=10 score=0.54 -> pred=18.23 m | gt=nan m | covGT=0.0% | d_med=18.62 px | AbsRel=nan
+[eval] box#10 id=10 score=0.53 -> pred=164.62 m | gt=nan m | covGT=0.0% | d_med=2.06 px | AbsRel=nan
+[eval] box#11 id=3 score=0.53 -> pred=15.93 m | gt=nan m | covGT=0.0% | d_med=21.31 px | AbsRel=nan
+[eval] box#12 id=1 score=0.52 -> pred=30.87 m | gt=nan m | covGT=0.0% | d_med=11.00 px | AbsRel=nan
+[eval] box#13 id=3 score=0.51 -> pred=18.86 m | gt=nan m | covGT=0.0% | d_med=18.00 px | AbsRel=nan
+[eval] box#14 id=8 score=0.50 -> pred=18.86 m | gt=nan m | covGT=0.0% | d_med=18.00 px | AbsRel=nan
+[summary:000016_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000017_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.2ms, detector=14.4ms
+[det] 8 boxes with score >= 0.5
+[metrics] AbsRel=0.048 | RMSE=4.677 | d1=0.977 | SILog=12.73
+[eval] box#0 id=6 score=0.75 -> pred=28.29 m | gt=28.49 m | covGT=2.9% | d_med=12.00 px | AbsRel=nan
+[eval] box#1 id=3 score=0.63 -> pred=11.32 m | gt=10.35 m | covGT=75.4% | d_med=30.00 px | AbsRel=0.093
+[eval] box#2 id=3 score=0.60 -> pred=56.59 m | gt=48.15 m | covGT=5.6% | d_med=6.00 px | AbsRel=nan
+[eval] box#3 id=1 score=0.57 -> pred=28.59 m | gt=nan m | covGT=0.0% | d_med=11.88 px | AbsRel=nan
+[eval] box#4 id=10 score=0.52 -> pred=92.07 m | gt=nan m | covGT=0.0% | d_med=3.69 px | AbsRel=nan
+[eval] box#5 id=1 score=0.51 -> pred=29.21 m | gt=nan m | covGT=0.0% | d_med=11.62 px | AbsRel=nan
+[eval] box#6 id=10 score=0.51 -> pred=11.78 m | gt=nan m | covGT=0.0% | d_med=28.81 px | AbsRel=nan
+[eval] box#7 id=1 score=0.50 -> pred=67.07 m | gt=50.55 m | covGT=10.3% | d_med=5.06 px | AbsRel=nan
+[summary:000017_10] used=1 | AbsRel mean=0.093 | median=0.093
+
+=== IDX 000017_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.1ms, detector=14.5ms
+[det] 10 boxes with score >= 0.5
+[eval] box#0 id=6 score=0.74 -> pred=28.29 m | gt=nan m | covGT=0.0% | d_med=12.00 px | AbsRel=nan
+[eval] box#1 id=3 score=0.72 -> pred=11.32 m | gt=nan m | covGT=0.0% | d_med=30.00 px | AbsRel=nan
+[eval] box#2 id=3 score=0.65 -> pred=47.65 m | gt=nan m | covGT=0.0% | d_med=7.12 px | AbsRel=nan
+[eval] box#3 id=1 score=0.61 -> pred=30.35 m | gt=nan m | covGT=0.0% | d_med=11.19 px | AbsRel=nan
+[eval] box#4 id=1 score=0.53 -> pred=67.90 m | gt=nan m | covGT=0.0% | d_med=5.00 px | AbsRel=nan
+[eval] box#5 id=1 score=0.53 -> pred=28.59 m | gt=nan m | covGT=0.0% | d_med=11.88 px | AbsRel=nan
+[eval] box#6 id=3 score=0.53 -> pred=58.73 m | gt=nan m | covGT=0.0% | d_med=5.78 px | AbsRel=nan
+[eval] box#7 id=1 score=0.53 -> pred=57.79 m | gt=nan m | covGT=0.0% | d_med=5.88 px | AbsRel=nan
+[eval] box#8 id=10 score=0.52 -> pred=93.66 m | gt=nan m | covGT=0.0% | d_med=3.62 px | AbsRel=nan
+[eval] box#9 id=10 score=0.51 -> pred=11.76 m | gt=nan m | covGT=0.0% | d_med=28.88 px | AbsRel=nan
+[summary:000017_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000018_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.6ms, detector=15.1ms
+[det] 5 boxes with score >= 0.5
+[metrics] AbsRel=0.168 | RMSE=10.243 | d1=0.935 | SILog=29.20
+[eval] box#0 id=3 score=0.80 -> pred=5.48 m | gt=5.47 m | covGT=63.1% | d_med=62.00 px | AbsRel=0.000
+[eval] box#1 id=10 score=0.68 -> pred=78.73 m | gt=65.95 m | covGT=24.0% | d_med=4.31 px | AbsRel=0.194
+[eval] box#2 id=1 score=0.54 -> pred=84.88 m | gt=nan m | covGT=3.5% | d_med=4.00 px | AbsRel=nan
+[eval] box#3 id=1 score=0.53 -> pred=169.76 m | gt=nan m | covGT=0.0% | d_med=2.00 px | AbsRel=nan
+[eval] box#4 id=10 score=0.53 -> pred=10.02 m | gt=9.97 m | covGT=9.7% | d_med=33.88 px | AbsRel=nan
+[summary:000018_10] used=2 | AbsRel mean=0.097 | median=0.097
+
+=== IDX 000018_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.5ms, detector=14.8ms
+[det] 3 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.78 -> pred=5.68 m | gt=nan m | covGT=0.0% | d_med=59.75 px | AbsRel=nan
+[eval] box#1 id=1 score=0.59 -> pred=41.47 m | gt=nan m | covGT=0.0% | d_med=8.19 px | AbsRel=nan
+[eval] box#2 id=3 score=0.56 -> pred=41.47 m | gt=nan m | covGT=0.0% | d_med=8.19 px | AbsRel=nan
+[summary:000018_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000019_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.5ms, detector=16.1ms
+[det] 3 boxes with score >= 0.5
+[metrics] AbsRel=0.144 | RMSE=9.385 | d1=0.940 | SILog=25.48
+[eval] box#0 id=3 score=0.65 -> pred=8.26 m | gt=7.97 m | covGT=77.9% | d_med=41.12 px | AbsRel=0.035
+[eval] box#1 id=3 score=0.63 -> pred=30.52 m | gt=25.92 m | covGT=26.4% | d_med=11.12 px | AbsRel=0.177
+[eval] box#2 id=3 score=0.51 -> pred=48.50 m | gt=53.49 m | covGT=30.2% | d_med=7.00 px | AbsRel=0.093
+[summary:000019_10] used=3 | AbsRel mean=0.102 | median=0.093
+
+=== IDX 000019_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.2ms, detector=14.5ms
+[det] 3 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.70 -> pred=8.66 m | gt=nan m | covGT=0.0% | d_med=39.19 px | AbsRel=nan
+[eval] box#1 id=3 score=0.62 -> pred=30.35 m | gt=nan m | covGT=0.0% | d_med=11.19 px | AbsRel=nan
+[eval] box#2 id=3 score=0.54 -> pred=33.95 m | gt=nan m | covGT=0.0% | d_med=10.00 px | AbsRel=nan
+[summary:000019_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000020_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.5ms, detector=15.0ms
+[det] 2 boxes with score >= 0.5
+[metrics] AbsRel=0.204 | RMSE=10.024 | d1=0.943 | SILog=31.10
+[eval] box#0 id=3 score=0.68 -> pred=15.52 m | gt=14.88 m | covGT=74.4% | d_med=21.88 px | AbsRel=0.043
+[eval] box#1 id=3 score=0.65 -> pred=5.30 m | gt=5.01 m | covGT=68.5% | d_med=64.06 px | AbsRel=0.059
+[summary:000020_10] used=2 | AbsRel mean=0.051 | median=0.051
+
+=== IDX 000020_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.3ms, detector=15.6ms
+[det] 3 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.66 -> pred=5.53 m | gt=nan m | covGT=0.0% | d_med=61.38 px | AbsRel=nan
+[eval] box#1 id=3 score=0.64 -> pred=16.02 m | gt=nan m | covGT=0.0% | d_med=21.19 px | AbsRel=nan
+[eval] box#2 id=3 score=0.54 -> pred=9.99 m | gt=nan m | covGT=0.0% | d_med=34.00 px | AbsRel=nan
+[summary:000020_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000021_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.5ms, detector=15.0ms
+[det] 4 boxes with score >= 0.5
+[metrics] AbsRel=0.088 | RMSE=4.569 | d1=0.944 | SILog=19.82
+[eval] box#0 id=3 score=0.59 -> pred=15.30 m | gt=13.91 m | covGT=56.0% | d_med=22.19 px | AbsRel=0.100
+[eval] box#1 id=3 score=0.56 -> pred=14.97 m | gt=13.97 m | covGT=81.6% | d_med=22.69 px | AbsRel=0.071
+[eval] box#2 id=3 score=0.55 -> pred=26.12 m | gt=14.02 m | covGT=22.4% | d_med=13.00 px | AbsRel=0.862
+[eval] box#3 id=3 score=0.55 -> pred=38.80 m | gt=35.93 m | covGT=13.6% | d_med=8.75 px | AbsRel=nan
+[summary:000021_10] used=3 | AbsRel mean=0.344 | median=0.100
+
+=== IDX 000021_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.6ms, detector=13.8ms
+[det] 5 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.65 -> pred=15.17 m | gt=nan m | covGT=0.0% | d_med=22.38 px | AbsRel=nan
+[eval] box#1 id=3 score=0.59 -> pred=37.21 m | gt=nan m | covGT=0.0% | d_med=9.12 px | AbsRel=nan
+[eval] box#2 id=3 score=0.54 -> pred=15.43 m | gt=nan m | covGT=0.0% | d_med=22.00 px | AbsRel=nan
+[eval] box#3 id=3 score=0.52 -> pred=15.22 m | gt=nan m | covGT=0.0% | d_med=22.31 px | AbsRel=nan
+[eval] box#4 id=3 score=0.52 -> pred=72.43 m | gt=nan m | covGT=0.0% | d_med=4.69 px | AbsRel=nan
+[summary:000021_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000022_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.4ms, detector=13.7ms
+[det] 4 boxes with score >= 0.5
+[metrics] AbsRel=0.167 | RMSE=11.359 | d1=0.961 | SILog=26.96
+[eval] box#0 id=3 score=0.69 -> pred=11.34 m | gt=10.44 m | covGT=73.2% | d_med=29.94 px | AbsRel=0.086
+[eval] box#1 id=3 score=0.63 -> pred=17.93 m | gt=17.22 m | covGT=74.7% | d_med=18.94 px | AbsRel=0.041
+[eval] box#2 id=3 score=0.61 -> pred=19.61 m | gt=15.25 m | covGT=8.0% | d_med=17.31 px | AbsRel=nan
+[eval] box#3 id=8 score=0.55 -> pred=17.87 m | gt=17.19 m | covGT=75.6% | d_med=19.00 px | AbsRel=0.039
+[summary:000022_10] used=3 | AbsRel mean=0.056 | median=0.041
+
+=== IDX 000022_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.4ms, detector=13.4ms
+[det] 3 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.70 -> pred=11.11 m | gt=nan m | covGT=0.0% | d_med=30.56 px | AbsRel=nan
+[eval] box#1 id=8 score=0.57 -> pred=17.14 m | gt=nan m | covGT=0.0% | d_med=19.81 px | AbsRel=nan
+[eval] box#2 id=3 score=0.57 -> pred=17.19 m | gt=nan m | covGT=0.0% | d_med=19.75 px | AbsRel=nan
+[summary:000022_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000023_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.4ms, detector=13.3ms
+[det] 7 boxes with score >= 0.5
+[metrics] AbsRel=0.086 | RMSE=7.477 | d1=0.965 | SILog=17.99
+[eval] box#0 id=3 score=0.72 -> pred=23.83 m | gt=22.69 m | covGT=42.9% | d_med=14.25 px | AbsRel=0.050
+[eval] box#1 id=8 score=0.68 -> pred=9.82 m | gt=10.15 m | covGT=59.3% | d_med=34.56 px | AbsRel=0.032
+[eval] box#2 id=3 score=0.67 -> pred=12.97 m | gt=12.90 m | covGT=73.6% | d_med=26.19 px | AbsRel=0.005
+[eval] box#3 id=3 score=0.59 -> pred=16.98 m | gt=16.50 m | covGT=48.7% | d_med=20.00 px | AbsRel=0.029
+[eval] box#4 id=3 score=0.57 -> pred=29.05 m | gt=22.04 m | covGT=7.2% | d_med=11.69 px | AbsRel=nan
+[eval] box#5 id=3 score=0.55 -> pred=83.58 m | gt=nan m | covGT=3.2% | d_med=4.06 px | AbsRel=nan
+[eval] box#6 id=3 score=0.54 -> pred=9.81 m | gt=10.14 m | covGT=59.6% | d_med=34.62 px | AbsRel=0.033
+[summary:000023_10] used=5 | AbsRel mean=0.030 | median=0.032
+
+=== IDX 000023_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.3ms, detector=14.2ms
+[det] 6 boxes with score >= 0.5
+[eval] box#0 id=8 score=0.68 -> pred=8.88 m | gt=nan m | covGT=0.0% | d_med=38.25 px | AbsRel=nan
+[eval] box#1 id=3 score=0.67 -> pred=16.22 m | gt=nan m | covGT=0.0% | d_med=20.94 px | AbsRel=nan
+[eval] box#2 id=3 score=0.66 -> pred=22.73 m | gt=nan m | covGT=0.0% | d_med=14.94 px | AbsRel=nan
+[eval] box#3 id=3 score=0.66 -> pred=30.18 m | gt=nan m | covGT=0.0% | d_med=11.25 px | AbsRel=nan
+[eval] box#4 id=3 score=0.55 -> pred=13.51 m | gt=nan m | covGT=0.0% | d_med=25.12 px | AbsRel=nan
+[eval] box#5 id=3 score=0.54 -> pred=28.59 m | gt=nan m | covGT=0.0% | d_med=11.88 px | AbsRel=nan
+[summary:000023_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000024_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.3ms, detector=14.3ms
+[det] 9 boxes with score >= 0.5
+[metrics] AbsRel=0.066 | RMSE=7.021 | d1=0.959 | SILog=13.63
+[eval] box#0 id=3 score=0.79 -> pred=28.15 m | gt=26.07 m | covGT=25.3% | d_med=12.06 px | AbsRel=0.080
+[eval] box#1 id=3 score=0.71 -> pred=42.77 m | gt=nan m | covGT=4.1% | d_med=7.94 px | AbsRel=nan
+[eval] box#2 id=3 score=0.66 -> pred=18.41 m | gt=17.61 m | covGT=74.1% | d_med=18.44 px | AbsRel=0.046
+[eval] box#3 id=3 score=0.64 -> pred=7.33 m | gt=6.02 m | covGT=0.9% | d_med=46.31 px | AbsRel=nan
+[eval] box#4 id=3 score=0.59 -> pred=19.37 m | gt=17.91 m | covGT=20.1% | d_med=17.53 px | AbsRel=0.082
+[eval] box#5 id=3 score=0.56 -> pred=15.88 m | gt=15.89 m | covGT=45.0% | d_med=21.38 px | AbsRel=0.000
+[eval] box#6 id=3 score=0.54 -> pred=36.46 m | gt=nan m | covGT=1.6% | d_med=9.31 px | AbsRel=nan
+[eval] box#7 id=3 score=0.53 -> pred=26.50 m | gt=25.46 m | covGT=32.6% | d_med=12.81 px | AbsRel=0.041
+[eval] box#8 id=3 score=0.50 -> pred=36.71 m | gt=28.00 m | covGT=7.5% | d_med=9.25 px | AbsRel=nan
+[summary:000024_10] used=5 | AbsRel mean=0.050 | median=0.046
+
+=== IDX 000024_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.7ms, detector=14.3ms
+[det] 6 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.77 -> pred=26.24 m | gt=nan m | covGT=0.0% | d_med=12.94 px | AbsRel=nan
+[eval] box#1 id=3 score=0.66 -> pred=55.43 m | gt=nan m | covGT=0.0% | d_med=6.12 px | AbsRel=nan
+[eval] box#2 id=3 score=0.66 -> pred=32.34 m | gt=nan m | covGT=0.0% | d_med=10.50 px | AbsRel=nan
+[eval] box#3 id=3 score=0.65 -> pred=18.93 m | gt=nan m | covGT=0.0% | d_med=17.94 px | AbsRel=nan
+[eval] box#4 id=3 score=0.65 -> pred=37.72 m | gt=nan m | covGT=0.0% | d_med=9.00 px | AbsRel=nan
+[eval] box#5 id=3 score=0.57 -> pred=14.76 m | gt=nan m | covGT=0.0% | d_med=23.00 px | AbsRel=nan
+[summary:000024_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000025_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.4ms, detector=14.3ms
+[det] 10 boxes with score >= 0.5
+[metrics] AbsRel=0.058 | RMSE=9.287 | d1=0.965 | SILog=15.19
+[eval] box#0 id=3 score=0.68 -> pred=11.71 m | gt=11.88 m | covGT=51.5% | d_med=29.00 px | AbsRel=0.015
+[eval] box#1 id=3 score=0.64 -> pred=29.05 m | gt=28.70 m | covGT=38.5% | d_med=11.69 px | AbsRel=0.012
+[eval] box#2 id=3 score=0.64 -> pred=26.76 m | gt=25.84 m | covGT=76.4% | d_med=12.69 px | AbsRel=0.036
+[eval] box#3 id=10 score=0.63 -> pred=51.74 m | gt=47.68 m | covGT=14.5% | d_med=6.56 px | AbsRel=nan
+[eval] box#4 id=3 score=0.60 -> pred=21.14 m | gt=20.49 m | covGT=48.3% | d_med=16.06 px | AbsRel=0.032
+[eval] box#5 id=1 score=0.58 -> pred=87.62 m | gt=21.75 m | covGT=35.4% | d_med=3.88 px | AbsRel=3.029
+[eval] box#6 id=3 score=0.58 -> pred=181.08 m | gt=50.78 m | covGT=9.7% | d_med=1.88 px | AbsRel=nan
+[eval] box#7 id=3 score=0.55 -> pred=26.63 m | gt=25.84 m | covGT=78.0% | d_med=12.75 px | AbsRel=0.031
+[eval] box#8 id=3 score=0.55 -> pred=184.88 m | gt=38.97 m | covGT=30.1% | d_med=1.72 px | AbsRel=nan
+[eval] box#9 id=1 score=0.53 -> pred=67.90 m | gt=60.28 m | covGT=40.4% | d_med=5.00 px | AbsRel=0.127
+[summary:000025_10] used=7 | AbsRel mean=0.469 | median=0.032
+
+=== IDX 000025_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.7ms, detector=14.8ms
+[det] 13 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.67 -> pred=27.58 m | gt=nan m | covGT=0.0% | d_med=12.31 px | AbsRel=nan
+[eval] box#1 id=10 score=0.66 -> pred=49.39 m | gt=nan m | covGT=0.0% | d_med=6.88 px | AbsRel=nan
+[eval] box#2 id=3 score=0.64 -> pred=10.89 m | gt=nan m | covGT=0.0% | d_med=31.19 px | AbsRel=nan
+[eval] box#3 id=3 score=0.64 -> pred=29.05 m | gt=nan m | covGT=0.0% | d_med=11.69 px | AbsRel=nan
+[eval] box#4 id=1 score=0.58 -> pred=92.07 m | gt=nan m | covGT=0.0% | d_med=3.69 px | AbsRel=nan
+[eval] box#5 id=3 score=0.58 -> pred=21.22 m | gt=nan m | covGT=0.0% | d_med=16.00 px | AbsRel=nan
+[eval] box#6 id=3 score=0.57 -> pred=52.23 m | gt=nan m | covGT=0.0% | d_med=6.50 px | AbsRel=nan
+[eval] box#7 id=3 score=0.56 -> pred=27.58 m | gt=nan m | covGT=0.0% | d_med=12.31 px | AbsRel=nan
+[eval] box#8 id=3 score=0.55 -> pred=136.15 m | gt=nan m | covGT=0.0% | d_med=2.50 px | AbsRel=nan
+[eval] box#9 id=4 score=0.54 -> pred=29.05 m | gt=nan m | covGT=0.0% | d_med=11.69 px | AbsRel=nan
+[eval] box#10 id=3 score=0.52 -> pred=18.05 m | gt=nan m | covGT=0.0% | d_med=18.81 px | AbsRel=nan
+[eval] box#11 id=1 score=0.51 -> pred=40.09 m | gt=nan m | covGT=0.0% | d_med=8.47 px | AbsRel=nan
+[eval] box#12 id=3 score=0.51 -> pred=19.47 m | gt=nan m | covGT=0.0% | d_med=17.44 px | AbsRel=nan
+[summary:000025_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000026_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.3ms, detector=14.8ms
+[det] 10 boxes with score >= 0.5
+[metrics] AbsRel=0.071 | RMSE=7.772 | d1=0.963 | SILog=15.82
+[eval] box#0 id=3 score=0.78 -> pred=28.15 m | gt=27.00 m | covGT=37.0% | d_med=12.06 px | AbsRel=0.042
+[eval] box#1 id=3 score=0.62 -> pred=175.24 m | gt=29.01 m | covGT=40.1% | d_med=1.94 px | AbsRel=nan
+[eval] box#2 id=3 score=0.60 -> pred=69.65 m | gt=29.18 m | covGT=30.4% | d_med=4.88 px | AbsRel=1.387
+[eval] box#3 id=3 score=0.56 -> pred=200.00 m | gt=nan m | covGT=6.8% | d_med=1.69 px | AbsRel=nan
+[eval] box#4 id=3 score=0.55 -> pred=33.95 m | gt=29.18 m | covGT=46.2% | d_med=10.00 px | AbsRel=0.164
+[eval] box#5 id=3 score=0.55 -> pred=16.17 m | gt=16.26 m | covGT=55.4% | d_med=21.00 px | AbsRel=0.006
+[eval] box#6 id=3 score=0.55 -> pred=39.37 m | gt=35.42 m | covGT=31.2% | d_med=8.62 px | AbsRel=0.111
+[eval] box#7 id=3 score=0.55 -> pred=16.92 m | gt=16.63 m | covGT=65.9% | d_med=20.06 px | AbsRel=0.018
+[eval] box#8 id=10 score=0.53 -> pred=11.25 m | gt=nan m | covGT=0.0% | d_med=30.19 px | AbsRel=nan
+[eval] box#9 id=3 score=0.51 -> pred=31.86 m | gt=29.22 m | covGT=54.4% | d_med=10.66 px | AbsRel=0.091
+[summary:000026_10] used=7 | AbsRel mean=0.260 | median=0.091
+
+=== IDX 000026_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.6ms, detector=14.6ms
+[det] 9 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.70 -> pred=27.30 m | gt=nan m | covGT=0.0% | d_med=12.44 px | AbsRel=nan
+[eval] box#1 id=3 score=0.61 -> pred=89.06 m | gt=nan m | covGT=0.0% | d_med=3.81 px | AbsRel=nan
+[eval] box#2 id=3 score=0.56 -> pred=15.22 m | gt=nan m | covGT=0.0% | d_med=22.31 px | AbsRel=nan
+[eval] box#3 id=1 score=0.55 -> pred=132.50 m | gt=nan m | covGT=0.0% | d_med=2.56 px | AbsRel=nan
+[eval] box#4 id=3 score=0.55 -> pred=175.24 m | gt=nan m | covGT=0.0% | d_med=1.94 px | AbsRel=nan
+[eval] box#5 id=1 score=0.53 -> pred=175.24 m | gt=nan m | covGT=0.0% | d_med=1.94 px | AbsRel=nan
+[eval] box#6 id=3 score=0.52 -> pred=194.01 m | gt=nan m | covGT=0.0% | d_med=1.75 px | AbsRel=nan
+[eval] box#7 id=1 score=0.51 -> pred=67.07 m | gt=nan m | covGT=0.0% | d_med=5.06 px | AbsRel=nan
+[eval] box#8 id=1 score=0.50 -> pred=194.01 m | gt=nan m | covGT=0.0% | d_med=1.75 px | AbsRel=nan
+[summary:000026_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000027_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.5ms, detector=13.2ms
+[det] 6 boxes with score >= 0.5
+[metrics] AbsRel=0.057 | RMSE=9.074 | d1=0.974 | SILog=14.30
+[eval] box#0 id=3 score=0.67 -> pred=13.86 m | gt=13.83 m | covGT=52.4% | d_med=24.50 px | AbsRel=0.002
+[eval] box#1 id=3 score=0.60 -> pred=113.17 m | gt=nan m | covGT=2.0% | d_med=3.00 px | AbsRel=nan
+[eval] box#2 id=3 score=0.57 -> pred=83.58 m | gt=44.27 m | covGT=27.4% | d_med=4.06 px | AbsRel=0.888
+[eval] box#3 id=1 score=0.55 -> pred=120.72 m | gt=nan m | covGT=0.0% | d_med=2.81 px | AbsRel=nan
+[eval] box#4 id=8 score=0.54 -> pred=14.33 m | gt=13.91 m | covGT=53.5% | d_med=23.69 px | AbsRel=0.030
+[eval] box#5 id=1 score=0.51 -> pred=83.58 m | gt=44.27 m | covGT=27.4% | d_med=4.06 px | AbsRel=0.888
+[summary:000027_10] used=4 | AbsRel mean=0.452 | median=0.459
+
+=== IDX 000027_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.3ms, detector=14.5ms
+[det] 12 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.63 -> pred=23.42 m | gt=nan m | covGT=0.0% | d_med=14.50 px | AbsRel=nan
+[eval] box#1 id=3 score=0.62 -> pred=92.07 m | gt=nan m | covGT=0.0% | d_med=3.69 px | AbsRel=nan
+[eval] box#2 id=1 score=0.61 -> pred=106.52 m | gt=nan m | covGT=0.0% | d_med=3.19 px | AbsRel=nan
+[eval] box#3 id=3 score=0.58 -> pred=11.53 m | gt=nan m | covGT=0.0% | d_med=29.44 px | AbsRel=nan
+[eval] box#4 id=3 score=0.55 -> pred=22.63 m | gt=nan m | covGT=0.0% | d_med=15.00 px | AbsRel=nan
+[eval] box#5 id=7 score=0.53 -> pred=13.38 m | gt=nan m | covGT=0.0% | d_med=25.38 px | AbsRel=nan
+[eval] box#6 id=1 score=0.53 -> pred=92.07 m | gt=nan m | covGT=0.0% | d_med=3.69 px | AbsRel=nan
+[eval] box#7 id=1 score=0.53 -> pred=42.44 m | gt=nan m | covGT=0.0% | d_med=8.00 px | AbsRel=nan
+[eval] box#8 id=3 score=0.52 -> pred=46.43 m | gt=nan m | covGT=0.0% | d_med=7.31 px | AbsRel=nan
+[eval] box#9 id=1 score=0.52 -> pred=200.00 m | gt=nan m | covGT=0.0% | d_med=1.12 px | AbsRel=nan
+[eval] box#10 id=3 score=0.52 -> pred=42.44 m | gt=nan m | covGT=0.0% | d_med=8.00 px | AbsRel=nan
+[eval] box#11 id=1 score=0.51 -> pred=46.43 m | gt=nan m | covGT=0.0% | d_med=7.31 px | AbsRel=nan
+[summary:000027_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000028_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.4ms, detector=15.6ms
+[det] 6 boxes with score >= 0.5
+[metrics] AbsRel=0.063 | RMSE=5.554 | d1=0.967 | SILog=14.63
+[eval] box#0 id=8 score=0.69 -> pred=12.72 m | gt=12.19 m | covGT=53.9% | d_med=26.69 px | AbsRel=0.044
+[eval] box#1 id=3 score=0.68 -> pred=68.76 m | gt=45.66 m | covGT=17.1% | d_med=4.94 px | AbsRel=nan
+[eval] box#2 id=3 score=0.67 -> pred=84.88 m | gt=nan m | covGT=0.2% | d_med=4.00 px | AbsRel=nan
+[eval] box#3 id=3 score=0.64 -> pred=113.17 m | gt=nan m | covGT=4.2% | d_med=3.00 px | AbsRel=nan
+[eval] box#4 id=3 score=0.57 -> pred=53.26 m | gt=40.69 m | covGT=44.8% | d_med=6.38 px | AbsRel=0.309
+[eval] box#5 id=1 score=0.53 -> pred=104.47 m | gt=nan m | covGT=0.5% | d_med=3.25 px | AbsRel=nan
+[summary:000028_10] used=2 | AbsRel mean=0.176 | median=0.176
+
+=== IDX 000028_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.7ms, detector=16.0ms
+[det] 6 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.67 -> pred=84.88 m | gt=nan m | covGT=0.0% | d_med=4.00 px | AbsRel=nan
+[eval] box#1 id=3 score=0.66 -> pred=84.88 m | gt=nan m | covGT=0.0% | d_med=4.00 px | AbsRel=nan
+[eval] box#2 id=1 score=0.61 -> pred=175.24 m | gt=nan m | covGT=0.0% | d_med=1.94 px | AbsRel=nan
+[eval] box#3 id=3 score=0.60 -> pred=42.77 m | gt=nan m | covGT=0.0% | d_med=7.94 px | AbsRel=nan
+[eval] box#4 id=1 score=0.53 -> pred=110.87 m | gt=nan m | covGT=0.0% | d_med=3.06 px | AbsRel=nan
+[eval] box#5 id=3 score=0.52 -> pred=66.25 m | gt=nan m | covGT=0.0% | d_med=5.12 px | AbsRel=nan
+[summary:000028_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000029_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.5ms, detector=13.8ms
+[det] 8 boxes with score >= 0.5
+[metrics] AbsRel=0.116 | RMSE=8.717 | d1=0.932 | SILog=21.79
+[eval] box#0 id=3 score=0.68 -> pred=81.08 m | gt=40.67 m | covGT=18.6% | d_med=4.19 px | AbsRel=nan
+[eval] box#1 id=3 score=0.68 -> pred=33.74 m | gt=32.04 m | covGT=46.3% | d_med=10.06 px | AbsRel=0.053
+[eval] box#2 id=3 score=0.65 -> pred=13.41 m | gt=12.63 m | covGT=49.1% | d_med=25.31 px | AbsRel=0.062
+[eval] box#3 id=1 score=0.63 -> pred=68.76 m | gt=40.49 m | covGT=15.9% | d_med=4.94 px | AbsRel=nan
+[eval] box#4 id=1 score=0.55 -> pred=48.72 m | gt=40.48 m | covGT=53.7% | d_med=6.97 px | AbsRel=0.203
+[eval] box#5 id=8 score=0.53 -> pred=13.41 m | gt=12.63 m | covGT=49.1% | d_med=25.31 px | AbsRel=0.062
+[eval] box#6 id=3 score=0.52 -> pred=68.76 m | gt=40.49 m | covGT=15.9% | d_med=4.94 px | AbsRel=nan
+[eval] box#7 id=3 score=0.51 -> pred=33.12 m | gt=30.87 m | covGT=33.6% | d_med=10.25 px | AbsRel=0.073
+[summary:000029_10] used=5 | AbsRel mean=0.091 | median=0.062
+
+=== IDX 000029_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.5ms, detector=14.4ms
+[det] 7 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.69 -> pred=30.52 m | gt=nan m | covGT=0.0% | d_med=11.12 px | AbsRel=nan
+[eval] box#1 id=3 score=0.69 -> pred=11.97 m | gt=nan m | covGT=0.0% | d_med=28.38 px | AbsRel=nan
+[eval] box#2 id=3 score=0.69 -> pred=84.88 m | gt=nan m | covGT=0.0% | d_med=4.00 px | AbsRel=nan
+[eval] box#3 id=3 score=0.62 -> pred=67.90 m | gt=nan m | covGT=0.0% | d_med=5.00 px | AbsRel=nan
+[eval] box#4 id=3 score=0.56 -> pred=30.01 m | gt=nan m | covGT=0.0% | d_med=11.31 px | AbsRel=nan
+[eval] box#5 id=3 score=0.55 -> pred=150.90 m | gt=nan m | covGT=0.0% | d_med=2.25 px | AbsRel=nan
+[eval] box#6 id=1 score=0.53 -> pred=67.90 m | gt=nan m | covGT=0.0% | d_med=5.00 px | AbsRel=nan
+[summary:000029_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000030_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.4ms, detector=14.4ms
+[det] 9 boxes with score >= 0.5
+[metrics] AbsRel=0.126 | RMSE=9.747 | d1=0.931 | SILog=23.09
+[eval] box#0 id=1 score=0.59 -> pred=41.79 m | gt=38.48 m | covGT=27.6% | d_med=8.12 px | AbsRel=0.086
+[eval] box#1 id=3 score=0.58 -> pred=29.05 m | gt=28.01 m | covGT=55.7% | d_med=11.69 px | AbsRel=0.037
+[eval] box#2 id=3 score=0.58 -> pred=48.07 m | gt=45.12 m | covGT=40.4% | d_med=7.06 px | AbsRel=0.066
+[eval] box#3 id=1 score=0.58 -> pred=47.65 m | gt=44.55 m | covGT=31.9% | d_med=7.12 px | AbsRel=0.070
+[eval] box#4 id=3 score=0.57 -> pred=67.90 m | gt=65.25 m | covGT=20.6% | d_med=5.00 px | AbsRel=0.041
+[eval] box#5 id=3 score=0.54 -> pred=30.52 m | gt=28.33 m | covGT=89.5% | d_med=11.12 px | AbsRel=0.077
+[eval] box#6 id=1 score=0.54 -> pred=48.07 m | gt=45.12 m | covGT=40.4% | d_med=7.06 px | AbsRel=0.066
+[eval] box#7 id=3 score=0.54 -> pred=47.65 m | gt=44.55 m | covGT=31.9% | d_med=7.12 px | AbsRel=0.070
+[eval] box#8 id=3 score=0.53 -> pred=41.79 m | gt=38.48 m | covGT=27.6% | d_med=8.12 px | AbsRel=0.086
+[summary:000030_10] used=9 | AbsRel mean=0.066 | median=0.070
+
+=== IDX 000030_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.7ms, detector=14.1ms
+[det] 5 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.65 -> pred=27.58 m | gt=nan m | covGT=0.0% | d_med=12.31 px | AbsRel=nan
+[eval] box#1 id=3 score=0.61 -> pred=47.24 m | gt=nan m | covGT=0.0% | d_med=7.19 px | AbsRel=nan
+[eval] box#2 id=3 score=0.60 -> pred=69.65 m | gt=nan m | covGT=0.0% | d_med=4.88 px | AbsRel=nan
+[eval] box#3 id=3 score=0.59 -> pred=42.11 m | gt=nan m | covGT=0.0% | d_med=8.06 px | AbsRel=nan
+[eval] box#4 id=3 score=0.51 -> pred=44.90 m | gt=nan m | covGT=0.0% | d_med=7.56 px | AbsRel=nan
+[summary:000030_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000031_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.6ms, detector=13.8ms
+[det] 10 boxes with score >= 0.5
+[metrics] AbsRel=0.118 | RMSE=11.082 | d1=0.963 | SILog=23.22
+[eval] box#0 id=1 score=0.68 -> pred=21.14 m | gt=20.81 m | covGT=41.8% | d_med=16.06 px | AbsRel=0.016
+[eval] box#1 id=3 score=0.68 -> pred=53.00 m | gt=40.30 m | covGT=40.0% | d_med=6.41 px | AbsRel=0.315
+[eval] box#2 id=3 score=0.61 -> pred=25.50 m | gt=24.09 m | covGT=59.9% | d_med=13.31 px | AbsRel=0.059
+[eval] box#3 id=1 score=0.58 -> pred=51.74 m | gt=40.37 m | covGT=35.4% | d_med=6.56 px | AbsRel=0.282
+[eval] box#4 id=3 score=0.57 -> pred=51.74 m | gt=40.37 m | covGT=35.4% | d_med=6.56 px | AbsRel=0.282
+[eval] box#5 id=1 score=0.55 -> pred=26.63 m | gt=24.10 m | covGT=43.0% | d_med=12.75 px | AbsRel=0.105
+[eval] box#6 id=1 score=0.54 -> pred=nan m | gt=33.14 m | covGT=16.9% | d_med=nan px | AbsRel=nan
+[eval] box#7 id=3 score=0.52 -> pred=175.24 m | gt=nan m | covGT=0.0% | d_med=1.94 px | AbsRel=nan
+[eval] box#8 id=3 score=0.51 -> pred=13.03 m | gt=12.55 m | covGT=91.4% | d_med=26.06 px | AbsRel=0.038
+[eval] box#9 id=1 score=0.51 -> pred=37.21 m | gt=34.38 m | covGT=51.7% | d_med=9.12 px | AbsRel=0.082
+[summary:000031_10] used=8 | AbsRel mean=0.147 | median=0.094
+
+=== IDX 000031_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.5ms, detector=14.8ms
+[det] 7 boxes with score >= 0.5
+[eval] box#0 id=1 score=0.71 -> pred=20.05 m | gt=nan m | covGT=0.0% | d_med=16.94 px | AbsRel=nan
+[eval] box#1 id=3 score=0.64 -> pred=11.73 m | gt=nan m | covGT=0.0% | d_med=28.94 px | AbsRel=nan
+[eval] box#2 id=3 score=0.63 -> pred=54.87 m | gt=nan m | covGT=0.0% | d_med=6.19 px | AbsRel=nan
+[eval] box#3 id=3 score=0.62 -> pred=22.73 m | gt=nan m | covGT=0.0% | d_med=14.94 px | AbsRel=nan
+[eval] box#4 id=3 score=0.58 -> pred=50.77 m | gt=nan m | covGT=0.0% | d_med=6.69 px | AbsRel=nan
+[eval] box#5 id=1 score=0.53 -> pred=nan m | gt=nan m | covGT=0.0% | d_med=nan px | AbsRel=nan
+[eval] box#6 id=1 score=0.50 -> pred=50.77 m | gt=nan m | covGT=0.0% | d_med=6.69 px | AbsRel=nan
+[summary:000031_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000032_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.9ms, detector=14.8ms
+[det] 13 boxes with score >= 0.5
+[metrics] AbsRel=0.072 | RMSE=10.158 | d1=0.965 | SILog=15.49
+[eval] box#0 id=3 score=0.69 -> pred=16.92 m | gt=14.33 m | covGT=62.6% | d_med=20.06 px | AbsRel=0.181
+[eval] box#1 id=6 score=0.68 -> pred=17.47 m | gt=14.82 m | covGT=40.7% | d_med=19.44 px | AbsRel=0.178
+[eval] box#2 id=38 score=0.67 -> pred=28.44 m | gt=nan m | covGT=0.0% | d_med=11.94 px | AbsRel=nan
+[eval] box#3 id=1 score=0.59 -> pred=44.17 m | gt=39.26 m | covGT=37.2% | d_med=7.69 px | AbsRel=0.125
+[eval] box#4 id=1 score=0.58 -> pred=113.17 m | gt=nan m | covGT=2.1% | d_med=3.00 px | AbsRel=nan
+[eval] box#5 id=1 score=0.57 -> pred=82.31 m | gt=52.84 m | covGT=6.4% | d_med=4.12 px | AbsRel=nan
+[eval] box#6 id=1 score=0.56 -> pred=129.34 m | gt=39.72 m | covGT=4.8% | d_med=2.62 px | AbsRel=nan
+[eval] box#7 id=1 score=0.55 -> pred=44.17 m | gt=39.22 m | covGT=60.7% | d_med=7.69 px | AbsRel=0.126
+[eval] box#8 id=1 score=0.54 -> pred=43.46 m | gt=40.98 m | covGT=40.0% | d_med=7.81 px | AbsRel=0.060
+[eval] box#9 id=1 score=0.53 -> pred=42.44 m | gt=40.07 m | covGT=41.8% | d_med=8.00 px | AbsRel=0.059
+[eval] box#10 id=3 score=0.52 -> pred=44.17 m | gt=39.26 m | covGT=37.2% | d_med=7.69 px | AbsRel=0.125
+[eval] box#11 id=1 score=0.52 -> pred=34.38 m | gt=31.84 m | covGT=7.9% | d_med=9.88 px | AbsRel=nan
+[eval] box#12 id=10 score=0.51 -> pred=100.60 m | gt=nan m | covGT=3.0% | d_med=3.38 px | AbsRel=nan
+[summary:000032_10] used=7 | AbsRel mean=0.122 | median=0.125
+
+=== IDX 000032_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.6ms, detector=13.5ms
+[det] 12 boxes with score >= 0.5
+[eval] box#0 id=1 score=0.64 -> pred=43.11 m | gt=nan m | covGT=0.0% | d_med=7.88 px | AbsRel=nan
+[eval] box#1 id=1 score=0.61 -> pred=25.99 m | gt=nan m | covGT=0.0% | d_med=13.06 px | AbsRel=nan
+[eval] box#2 id=1 score=0.59 -> pred=63.91 m | gt=nan m | covGT=0.0% | d_med=5.31 px | AbsRel=nan
+[eval] box#3 id=1 score=0.58 -> pred=113.17 m | gt=nan m | covGT=0.0% | d_med=3.00 px | AbsRel=nan
+[eval] box#4 id=1 score=0.57 -> pred=44.17 m | gt=nan m | covGT=0.0% | d_med=7.69 px | AbsRel=nan
+[eval] box#5 id=3 score=0.57 -> pred=nan m | gt=nan m | covGT=0.0% | d_med=nan px | AbsRel=nan
+[eval] box#6 id=3 score=0.56 -> pred=41.79 m | gt=nan m | covGT=0.0% | d_med=8.12 px | AbsRel=nan
+[eval] box#7 id=1 score=0.55 -> pred=49.84 m | gt=nan m | covGT=0.0% | d_med=6.81 px | AbsRel=nan
+[eval] box#8 id=1 score=0.54 -> pred=41.79 m | gt=nan m | covGT=0.0% | d_med=8.12 px | AbsRel=nan
+[eval] box#9 id=1 score=0.51 -> pred=72.43 m | gt=nan m | covGT=0.0% | d_med=4.69 px | AbsRel=nan
+[eval] box#10 id=6 score=0.50 -> pred=nan m | gt=nan m | covGT=0.0% | d_med=nan px | AbsRel=nan
+[eval] box#11 id=1 score=0.50 -> pred=nan m | gt=nan m | covGT=0.0% | d_med=nan px | AbsRel=nan
+[summary:000032_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000033_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.4ms, detector=13.7ms
+[det] 9 boxes with score >= 0.5
+[metrics] AbsRel=0.091 | RMSE=11.007 | d1=0.959 | SILog=19.96
+[eval] box#0 id=3 score=0.74 -> pred=14.60 m | gt=13.88 m | covGT=47.7% | d_med=23.25 px | AbsRel=0.052
+[eval] box#1 id=1 score=0.69 -> pred=37.99 m | gt=35.53 m | covGT=45.9% | d_med=8.94 px | AbsRel=0.069
+[eval] box#2 id=1 score=0.62 -> pred=65.87 m | gt=35.89 m | covGT=17.8% | d_med=5.16 px | AbsRel=nan
+[eval] box#3 id=1 score=0.61 -> pred=nan m | gt=nan m | covGT=3.7% | d_med=nan px | AbsRel=nan
+[eval] box#4 id=3 score=0.56 -> pred=42.44 m | gt=38.51 m | covGT=69.0% | d_med=8.00 px | AbsRel=0.102
+[eval] box#5 id=1 score=0.54 -> pred=nan m | gt=nan m | covGT=3.7% | d_med=nan px | AbsRel=nan
+[eval] box#6 id=1 score=0.52 -> pred=108.65 m | gt=nan m | covGT=3.5% | d_med=3.12 px | AbsRel=nan
+[eval] box#7 id=3 score=0.52 -> pred=67.90 m | gt=38.53 m | covGT=8.0% | d_med=5.00 px | AbsRel=nan
+[eval] box#8 id=1 score=0.51 -> pred=67.90 m | gt=38.53 m | covGT=8.0% | d_med=5.00 px | AbsRel=nan
+[summary:000033_10] used=3 | AbsRel mean=0.074 | median=0.069
+
+=== IDX 000033_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.5ms, detector=13.5ms
+[det] 7 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.68 -> pred=42.44 m | gt=nan m | covGT=0.0% | d_med=8.00 px | AbsRel=nan
+[eval] box#1 id=3 score=0.67 -> pred=12.10 m | gt=nan m | covGT=0.0% | d_med=28.06 px | AbsRel=nan
+[eval] box#2 id=1 score=0.58 -> pred=34.17 m | gt=nan m | covGT=0.0% | d_med=9.94 px | AbsRel=nan
+[eval] box#3 id=3 score=0.54 -> pred=60.36 m | gt=nan m | covGT=0.0% | d_med=5.62 px | AbsRel=nan
+[eval] box#4 id=1 score=0.53 -> pred=106.52 m | gt=nan m | covGT=0.0% | d_med=3.19 px | AbsRel=nan
+[eval] box#5 id=1 score=0.53 -> pred=10.31 m | gt=nan m | covGT=0.0% | d_med=32.94 px | AbsRel=nan
+[eval] box#6 id=3 score=0.50 -> pred=34.17 m | gt=nan m | covGT=0.0% | d_med=9.94 px | AbsRel=nan
+[summary:000033_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000034_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.3ms, detector=14.7ms
+[det] 11 boxes with score >= 0.5
+[metrics] AbsRel=0.078 | RMSE=9.546 | d1=0.967 | SILog=18.92
+[eval] box#0 id=3 score=0.72 -> pred=40.85 m | gt=35.59 m | covGT=57.9% | d_med=8.31 px | AbsRel=0.148
+[eval] box#1 id=3 score=0.64 -> pred=32.53 m | gt=nan m | covGT=2.2% | d_med=10.44 px | AbsRel=nan
+[eval] box#2 id=3 score=0.63 -> pred=15.48 m | gt=15.14 m | covGT=81.0% | d_med=21.94 px | AbsRel=0.022
+[eval] box#3 id=3 score=0.62 -> pred=38.53 m | gt=nan m | covGT=0.4% | d_med=8.81 px | AbsRel=nan
+[eval] box#4 id=3 score=0.61 -> pred=42.77 m | gt=34.87 m | covGT=55.8% | d_med=7.94 px | AbsRel=0.227
+[eval] box#5 id=3 score=0.60 -> pred=36.71 m | gt=32.87 m | covGT=58.7% | d_med=9.25 px | AbsRel=0.117
+[eval] box#6 id=3 score=0.57 -> pred=36.71 m | gt=nan m | covGT=2.4% | d_med=9.25 px | AbsRel=nan
+[eval] box#7 id=3 score=0.57 -> pred=30.87 m | gt=8.73 m | covGT=7.0% | d_med=11.00 px | AbsRel=nan
+[eval] box#8 id=3 score=0.52 -> pred=22.63 m | gt=21.76 m | covGT=79.6% | d_med=15.00 px | AbsRel=0.040
+[eval] box#9 id=10 score=0.51 -> pred=nan m | gt=nan m | covGT=0.0% | d_med=nan px | AbsRel=nan
+[eval] box#10 id=38 score=0.50 -> pred=36.96 m | gt=nan m | covGT=0.0% | d_med=9.19 px | AbsRel=nan
+[summary:000034_10] used=5 | AbsRel mean=0.111 | median=0.117
+
+=== IDX 000034_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.4ms, detector=14.0ms
+[det] 15 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.70 -> pred=33.33 m | gt=nan m | covGT=0.0% | d_med=10.19 px | AbsRel=nan
+[eval] box#1 id=3 score=0.69 -> pred=49.84 m | gt=nan m | covGT=0.0% | d_med=6.81 px | AbsRel=nan
+[eval] box#2 id=3 score=0.65 -> pred=13.00 m | gt=nan m | covGT=0.0% | d_med=26.12 px | AbsRel=nan
+[eval] box#3 id=3 score=0.63 -> pred=44.53 m | gt=nan m | covGT=0.0% | d_med=7.62 px | AbsRel=nan
+[eval] box#4 id=10 score=0.62 -> pred=nan m | gt=nan m | covGT=0.0% | d_med=nan px | AbsRel=nan
+[eval] box#5 id=10 score=0.61 -> pred=7.49 m | gt=nan m | covGT=0.0% | d_med=45.31 px | AbsRel=nan
+[eval] box#6 id=3 score=0.60 -> pred=30.87 m | gt=nan m | covGT=0.0% | d_med=11.00 px | AbsRel=nan
+[eval] box#7 id=3 score=0.60 -> pred=34.60 m | gt=nan m | covGT=0.0% | d_med=9.81 px | AbsRel=nan
+[eval] box#8 id=3 score=0.60 -> pred=36.71 m | gt=nan m | covGT=0.0% | d_med=9.25 px | AbsRel=nan
+[eval] box#9 id=3 score=0.56 -> pred=13.45 m | gt=nan m | covGT=0.0% | d_med=25.25 px | AbsRel=nan
+[eval] box#10 id=3 score=0.55 -> pred=nan m | gt=nan m | covGT=0.0% | d_med=nan px | AbsRel=nan
+[eval] box#11 id=3 score=0.54 -> pred=34.17 m | gt=nan m | covGT=0.0% | d_med=9.94 px | AbsRel=nan
+[eval] box#12 id=3 score=0.54 -> pred=38.26 m | gt=nan m | covGT=0.0% | d_med=8.88 px | AbsRel=nan
+[eval] box#13 id=1 score=0.53 -> pred=34.60 m | gt=nan m | covGT=0.0% | d_med=9.81 px | AbsRel=nan
+[eval] box#14 id=1 score=0.51 -> pred=30.52 m | gt=nan m | covGT=0.0% | d_med=11.12 px | AbsRel=nan
+[summary:000034_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000035_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.2ms, detector=14.7ms
+[det] 7 boxes with score >= 0.5
+[metrics] AbsRel=0.051 | RMSE=6.443 | d1=0.982 | SILog=10.66
+[eval] box#0 id=3 score=0.68 -> pred=13.31 m | gt=12.77 m | covGT=69.7% | d_med=25.50 px | AbsRel=0.043
+[eval] box#1 id=3 score=0.64 -> pred=nan m | gt=nan m | covGT=2.9% | d_med=nan px | AbsRel=nan
+[eval] box#2 id=3 score=0.64 -> pred=29.85 m | gt=27.45 m | covGT=5.6% | d_med=11.38 px | AbsRel=nan
+[eval] box#3 id=3 score=0.60 -> pred=50.77 m | gt=43.92 m | covGT=33.3% | d_med=6.69 px | AbsRel=0.156
+[eval] box#4 id=3 score=0.55 -> pred=123.46 m | gt=nan m | covGT=2.8% | d_med=2.75 px | AbsRel=nan
+[eval] box#5 id=3 score=0.55 -> pred=24.04 m | gt=22.77 m | covGT=79.1% | d_med=14.12 px | AbsRel=0.056
+[eval] box#6 id=1 score=0.53 -> pred=24.04 m | gt=22.77 m | covGT=79.1% | d_med=14.12 px | AbsRel=0.056
+[summary:000035_10] used=4 | AbsRel mean=0.078 | median=0.056
+
+=== IDX 000035_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.7ms, detector=14.2ms
+[det] 7 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.67 -> pred=10.93 m | gt=nan m | covGT=0.0% | d_med=31.06 px | AbsRel=nan
+[eval] box#1 id=3 score=0.61 -> pred=28.74 m | gt=nan m | covGT=0.0% | d_med=11.81 px | AbsRel=nan
+[eval] box#2 id=3 score=0.60 -> pred=57.18 m | gt=nan m | covGT=0.0% | d_med=5.94 px | AbsRel=nan
+[eval] box#3 id=3 score=0.59 -> pred=115.58 m | gt=nan m | covGT=0.0% | d_med=2.94 px | AbsRel=nan
+[eval] box#4 id=1 score=0.54 -> pred=14.37 m | gt=nan m | covGT=0.0% | d_med=23.62 px | AbsRel=nan
+[eval] box#5 id=1 score=0.54 -> pred=24.14 m | gt=nan m | covGT=0.0% | d_med=14.06 px | AbsRel=nan
+[eval] box#6 id=3 score=0.52 -> pred=24.14 m | gt=nan m | covGT=0.0% | d_med=14.06 px | AbsRel=nan
+[summary:000035_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000036_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.6ms, detector=13.7ms
+[det] 7 boxes with score >= 0.5
+[metrics] AbsRel=0.079 | RMSE=9.642 | d1=0.967 | SILog=16.07
+[eval] box#0 id=3 score=0.58 -> pred=47.65 m | gt=35.13 m | covGT=64.4% | d_med=7.12 px | AbsRel=0.356
+[eval] box#1 id=1 score=0.57 -> pred=37.21 m | gt=33.74 m | covGT=20.4% | d_med=9.12 px | AbsRel=0.103
+[eval] box#2 id=3 score=0.57 -> pred=42.77 m | gt=38.07 m | covGT=41.7% | d_med=7.94 px | AbsRel=0.124
+[eval] box#3 id=3 score=0.55 -> pred=89.06 m | gt=34.99 m | covGT=10.2% | d_med=3.81 px | AbsRel=nan
+[eval] box#4 id=10 score=0.55 -> pred=200.00 m | gt=nan m | covGT=15.8% | d_med=1.00 px | AbsRel=nan
+[eval] box#5 id=1 score=0.53 -> pred=47.65 m | gt=35.13 m | covGT=64.4% | d_med=7.12 px | AbsRel=0.356
+[eval] box#6 id=3 score=0.51 -> pred=15.43 m | gt=15.11 m | covGT=77.0% | d_med=22.00 px | AbsRel=0.021
+[summary:000036_10] used=5 | AbsRel mean=0.192 | median=0.124
+
+=== IDX 000036_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.6ms, detector=15.2ms
+[det] 9 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.60 -> pred=13.38 m | gt=nan m | covGT=0.0% | d_med=25.38 px | AbsRel=nan
+[eval] box#1 id=3 score=0.58 -> pred=42.44 m | gt=nan m | covGT=0.0% | d_med=8.00 px | AbsRel=nan
+[eval] box#2 id=3 score=0.57 -> pred=53.52 m | gt=nan m | covGT=0.0% | d_med=6.34 px | AbsRel=nan
+[eval] box#3 id=3 score=0.56 -> pred=56.59 m | gt=nan m | covGT=0.0% | d_med=6.00 px | AbsRel=nan
+[eval] box#4 id=38 score=0.55 -> pred=40.85 m | gt=nan m | covGT=0.0% | d_med=8.31 px | AbsRel=nan
+[eval] box#5 id=1 score=0.52 -> pred=31.40 m | gt=nan m | covGT=0.0% | d_med=10.81 px | AbsRel=nan
+[eval] box#6 id=8 score=0.52 -> pred=13.38 m | gt=nan m | covGT=0.0% | d_med=25.38 px | AbsRel=nan
+[eval] box#7 id=10 score=0.52 -> pred=175.24 m | gt=nan m | covGT=0.0% | d_med=1.94 px | AbsRel=nan
+[eval] box#8 id=38 score=0.51 -> pred=58.41 m | gt=nan m | covGT=0.0% | d_med=5.81 px | AbsRel=nan
+[summary:000036_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000037_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.6ms, detector=14.2ms
+[det] 10 boxes with score >= 0.5
+[metrics] AbsRel=0.091 | RMSE=7.780 | d1=0.948 | SILog=18.09
+[eval] box#0 id=3 score=0.74 -> pred=9.88 m | gt=9.68 m | covGT=74.7% | d_med=34.38 px | AbsRel=0.020
+[eval] box#1 id=3 score=0.64 -> pred=63.91 m | gt=33.55 m | covGT=5.9% | d_med=5.31 px | AbsRel=nan
+[eval] box#2 id=3 score=0.64 -> pred=39.37 m | gt=33.44 m | covGT=44.6% | d_med=8.62 px | AbsRel=0.177
+[eval] box#3 id=3 score=0.63 -> pred=150.90 m | gt=nan m | covGT=0.0% | d_med=2.25 px | AbsRel=nan
+[eval] box#4 id=10 score=0.61 -> pred=22.63 m | gt=nan m | covGT=10.0% | d_med=15.00 px | AbsRel=nan
+[eval] box#5 id=8 score=0.57 -> pred=9.88 m | gt=9.68 m | covGT=74.7% | d_med=34.38 px | AbsRel=0.020
+[eval] box#6 id=1 score=0.55 -> pred=63.91 m | gt=33.55 m | covGT=5.9% | d_med=5.31 px | AbsRel=nan
+[eval] box#7 id=4 score=0.54 -> pred=39.37 m | gt=33.44 m | covGT=44.6% | d_med=8.62 px | AbsRel=0.177
+[eval] box#8 id=10 score=0.52 -> pred=nan m | gt=nan m | covGT=0.0% | d_med=nan px | AbsRel=nan
+[eval] box#9 id=1 score=0.50 -> pred=26.12 m | gt=25.35 m | covGT=81.1% | d_med=13.00 px | AbsRel=0.030
+[summary:000037_10] used=5 | AbsRel mean=0.085 | median=0.030
+
+=== IDX 000037_11 | fx=721.5 px, B=0.471 m, gt=no ===
+[time] stereo=11.5ms, detector=14.3ms
+[det] 12 boxes with score >= 0.5
+[eval] box#0 id=3 score=0.71 -> pred=7.40 m | gt=nan m | covGT=0.0% | d_med=45.88 px | AbsRel=nan
+[eval] box#1 id=4 score=0.61 -> pred=33.12 m | gt=nan m | covGT=0.0% | d_med=10.25 px | AbsRel=nan
+[eval] box#2 id=3 score=0.60 -> pred=33.12 m | gt=nan m | covGT=0.0% | d_med=10.25 px | AbsRel=nan
+[eval] box#3 id=1 score=0.60 -> pred=33.12 m | gt=nan m | covGT=0.0% | d_med=10.25 px | AbsRel=nan
+[eval] box#4 id=1 score=0.55 -> pred=100.60 m | gt=nan m | covGT=0.0% | d_med=3.38 px | AbsRel=nan
+[eval] box#5 id=3 score=0.55 -> pred=9.97 m | gt=nan m | covGT=0.0% | d_med=34.06 px | AbsRel=nan
+[eval] box#6 id=1 score=0.55 -> pred=57.79 m | gt=nan m | covGT=0.0% | d_med=5.88 px | AbsRel=nan
+[eval] box#7 id=3 score=0.53 -> pred=57.79 m | gt=nan m | covGT=0.0% | d_med=5.88 px | AbsRel=nan
+[eval] box#8 id=1 score=0.53 -> pred=21.64 m | gt=nan m | covGT=0.0% | d_med=15.69 px | AbsRel=nan
+[eval] box#9 id=1 score=0.52 -> pred=153.06 m | gt=nan m | covGT=0.0% | d_med=2.22 px | AbsRel=nan
+[eval] box#10 id=10 score=0.51 -> pred=nan m | gt=nan m | covGT=0.0% | d_med=nan px | AbsRel=nan
+[eval] box#11 id=1 score=0.51 -> pred=37.72 m | gt=nan m | covGT=0.0% | d_med=9.00 px | AbsRel=nan
+[summary:000037_11] no boxes passed coverage & disparity thresholds
+
+=== IDX 000038_10 | fx=721.5 px, B=0.471 m, gt=yes ===
+[time] stereo=11.3ms, detector=14.4ms
+[det] 6 boxes with score >= 0.5
+[metrics] AbsRel=0.076 | RMSE=8.043 | d1=0.961 | SILog=15.40
+[eval] box#0 id=3 score=0.79 -> pred=9.08 m | gt=8.95 m | covGT=78.7% | d_med=37.38 px | AbsRel=0.015
+[eval] box#1 id=3 score=0.72 -> pred=40.85 m | gt=36.69 m | covGT=57.5% | d_med=8.31 px | AbsRel=0.113
